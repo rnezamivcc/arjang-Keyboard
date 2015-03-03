@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_title_cloud">
+
+    <com.iknowu.preferences.SignUpPreference
+        android:key="sign_up"
+        android:title="@string/pref_title_cloud_signup"
+        android:summary="@string/pref_title_cloud_signup_summary"
+        firstInputLabel="Email"
+        secondInputLabel="Password"
+        android:defaultValue=""
+    />
+
+    <CheckBoxPreference
+        android:key="cloudSyncOn"
+        android:title="@string/pref_title_cloud_enable"
+        android:persistent="true"
+        android:defaultValue="false"
+        android:summaryOn="@string/pref_title_cloud_enable_summaryon"
+        android:summaryOff="@string/pref_title_cloud_enable_summaryoff"
+    />
+
+</PreferenceScreen>

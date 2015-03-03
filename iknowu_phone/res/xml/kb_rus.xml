@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UNICODE CHARACTERS http://en.wikipedia.org/wiki/Cyrillic_script_in_Unicode -->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="@dimen/key_height"
+    android:horizontalGap="0%p"
+    android:verticalGap="0%p">
+ 
+     <Row android:keyWidth="9%p">
+        <Key android:codes="1081" android:keyLabel="\u0439" android:keyEdgeFlags="left" isCharKey="true"/>
+        <Key android:codes="1094" android:keyLabel="\u0446" isCharKey="true"/>
+        <Key android:codes="1091" android:keyLabel="\u0443" isCharKey="true"/>
+        <Key android:codes="1082" android:keyLabel="\u043A" isCharKey="true"/>
+        <Key android:codes="1077" android:keyLabel="\u0435" isCharKey="true"/>
+        <Key android:codes="1085" android:keyLabel="\u043D" isCharKey="true"/>
+        <Key android:codes="1075" android:keyLabel="\u0433" isCharKey="true"/>
+        <Key android:codes="1096" android:keyLabel="\u0448" isCharKey="true"/>
+        <Key android:codes="1097" android:keyLabel="\u0449" isCharKey="true"/>
+		<Key android:codes="1079" android:keyLabel="\u0437" isCharKey="true"/>
+        <Key android:codes="1093" android:keyLabel="\u0445" android:keyEdgeFlags="right" isCharKey="true"/>
+    </Row>  
+   
+   <Row android:keyWidth="9%p">
+        <Key android:codes="1092" android:keyLabel="\u0444" isCharKey="true"/>
+        <Key android:codes="1099" android:keyLabel="\u044B" isCharKey="true"/>
+        <Key android:codes="1074" android:keyLabel="\u0432" isCharKey="true"/>
+        <Key android:codes="1072" android:keyLabel="\u0430" isCharKey="true"/>
+        <Key android:codes="1087" android:keyLabel="\u043F" isCharKey="true"/>
+        <Key android:codes="1088" android:keyLabel="\u0440" isCharKey="true"/>
+        <Key android:codes="1086" android:keyLabel="\u043E" isCharKey="true"/>
+        <Key android:codes="1083" android:keyLabel="\u043B" isCharKey="true"/>
+		<Key android:codes="1076" android:keyLabel="\u0434" isCharKey="true"/>
+		<Key android:codes="1078" android:keyLabel="\u0436" isCharKey="true"/>
+        <Key android:codes="1101" android:keyLabel="\u044D" isCharKey="true"/>
+    </Row>
+    
+   <Row android:keyWidth="9%p">
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift"
+             android:isSticky="true"  android:keyEdgeFlags="left"  android:isModifier="true" keyDarkBackground="true"/>
+        <Key android:codes="1103" android:keyLabel="\u044F" isCharKey="true"/>
+        <Key android:codes="1095" android:keyLabel="\u0447" isCharKey="true"/>
+        <Key android:codes="1089" android:keyLabel="\u0441" isCharKey="true"/>
+        <Key android:codes="1084" android:keyLabel="\u043C" isCharKey="true"/>
+        <Key android:codes="1080" android:keyLabel="\u0438" isCharKey="true"/>
+        <Key android:codes="1090" android:keyLabel="\u0442" isCharKey="true"/>
+        <Key android:codes="1100" android:keyLabel="\u044C" isCharKey="true"/>
+		<Key android:codes="1073" android:keyLabel="\u0431" isCharKey="true"/>
+		<Key android:codes="1102" android:keyLabel="\u044E" isCharKey="true"/>
+        <Key android:codes="-5"  android:keyIcon="@drawable/sym_keyboard_backspace" android:keyEdgeFlags="right" keyDarkBackground="true" />
+    </Row>
+    
+     <Row android:keyWidth="10.0%p" android:rowEdgeFlags="bottom" verticalGap="0dp" >
+        <!-- <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done"  android:keyWidth="12%p"  android:keyEdgeFlags="left" keyDarkBackground="true"/> -->
+        <Key android:codes="-2" android:keyIcon="@drawable/key123label" android:popupKeyboard="@layout/popup_kbchoices" android:keyWidth="12%p" keyDarkBackground="true"/>
+        <Key android:codes="44" android:keyLabel="," keyDarkBackground="true" isCharKey="true" />
+        <Key android:codes="32" android:keyWidth="56%p" android:keyIcon="@drawable/sym_keyboard_space" isCharKey="true" />
+        <Key android:codes="46" android:keyLabel="." keyDarkBackground="true" isCharKey="true" />
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" android:keyWidth="11.8%p" android:popupKeyboard="@layout/popup_smiley" android:keyEdgeFlags="right" keyDarkBackground="true" />
+    </Row>
+
+</Keyboard>    
+

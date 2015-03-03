@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="key_height">80dp</dimen>
+    <dimen name="key_height_bottom_row">75dp</dimen>
+    <dimen name="compressed_key_height">50dp</dimen>
+    <dimen name="compressed_key_height_tablet">70dp</dimen>
+    <dimen name="compressed_key_height_second_row">35dp</dimen>
+    <dimen name="compressed_key_height_second_row_tablet">55dp</dimen>
+    
+    <dimen name="candidate_font_height">15sp</dimen>
+    <dimen name="candidate_tablet_font_height">22sp</dimen>
+    <dimen name="candidate_vertical_padding">20sp</dimen>
+
+    <dimen name="kbview_tablet_keytextsize">35dp</dimen>
+
+    <dimen name="kbview_tablet_keytextsize_big">50dp</dimen>
+
+    <dimen name="kbview_tablet_labeltextsize">16dp</dimen>
+
+    <dimen name="kbview_tablet_uprlabeltextsize">22dp</dimen>
+
+    <dimen name="compressed_keytextsize">16dp</dimen>
+    <dimen name="compressed_labeltextsize">20dp</dimen>
+    <dimen name="compressed_predicted_text_size">26dp</dimen>
+
+    <dimen name="compressed_tablet_keytextsize">22dp</dimen>
+    <dimen name="compressed_tablet_labeltextsize">26dp</dimen>
+    <dimen name="compressed_tablet_predicted_text_size">32dp</dimen>
+
+    <dimen name="searchlist_textsize">18dp</dimen>
+    
+    <dimen name="kbview_key_padleft">1dp</dimen>
+    <dimen name="kbview_key_padright">1dp</dimen>
+    <dimen name="kbview_key_padtop">2dp</dimen>
+    <dimen name="kbview_key_padbottom">2dp</dimen>
+    
+    <dimen name="kbview_key_pkpadtextvertical">12dp</dimen>
+    <dimen name="kbview_key_pkpaduprtextrightedgein">14dp</dimen>
+    <dimen name="kbview_key_tablet_pkpaduprtextrightedgein">25dp</dimen>
+    <dimen name="kbview_key_pkpaduprtexttopedgebelow">25dp</dimen>
+
+    <dimen name="kbview_key_upriconpadleft">7dp</dimen>
+    <dimen name="kbview_key_upriconpadright">10dp</dimen>
+    <dimen name="kbview_key_upriconpadtop">12dp</dimen>
+    <dimen name="kbview_key_upriconpadbottom">7dp</dimen>
+    
+    <dimen name="tutorial_text_size">18sp</dimen>
+    
+    <dimen name="action_bar_height">45dp</dimen>
+    <dimen name="action_bar_child_height">30dp</dimen>
+    
+    <dimen name="small_action_bar_height">20dp</dimen>
+    <dimen name="small_action_bar_child_height">15dp</dimen>
+    
+    <dimen name="preview_border_width">3dp</dimen>
+    <dimen name="preview_width">100dp</dimen>
+    <dimen name="preview_height">110dp</dimen>
+    <dimen name="preview_text_size">50sp</dimen>
+</resources>

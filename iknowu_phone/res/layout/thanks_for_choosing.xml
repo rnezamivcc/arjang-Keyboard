@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:baselineAligned="true"
+          android:gravity="center">
+
+        <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tour_title_welcome"
+                android:id="@+id/text_thanks_for_choosing"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"
+                android:textColor="#FF1E87D2"
+                android:background="@drawable/info_bg_white"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"/>
+
+        <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="Take Tour"
+                android:id="@+id/button_take_tour"
+                android:layout_gravity="center"
+                android:layout_marginTop="55dp"
+                android:background="@drawable/blue_state_button"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20sp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"/>
+
+        <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="Skip"
+                android:id="@+id/button_skip"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/green_state_button"
+                android:textColor="#FFFFFFFF"
+                android:textSize="20sp"
+                android:paddingLeft="0dp"
+                android:paddingTop="10dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="10dp"/>
+    </LinearLayout>
+</ScrollView>

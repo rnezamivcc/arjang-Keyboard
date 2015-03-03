@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+		
+		<com.iknowu.SuggestionScrollView
+		    android:id="@+id/sug_scroll_view"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:scrollbars="none"
+			>
+			<com.iknowu.SuggestionsLinearLayout
+				android:id="@+id/CandView"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:gravity="center_horizontal"
+			/>
+		</com.iknowu.SuggestionScrollView>
+		
+		<com.iknowu.IKnowUCompressedView
+		     android:id="@+id/IKnowUKeyboardView"
+		     android:layout_width="match_parent"
+ 		     android:layout_height ="wrap_content"
+		/>
+		
+		<com.iknowu.miniapp.MiniAppActionBar
+		     android:id="@+id/MiniActionBar"
+		     android:layout_width="match_parent"
+ 		     android:layout_height ="wrap_content"
+		/>
+</LinearLayout>

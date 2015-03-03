@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<popups>
+	<character value="qaz">
+	    <key value="q" />
+	    <key value="a" />
+	    <key value="z" />
+	    <key value="1" default="true"/>
+	</character>
+
+    <character value="QAZ">
+        <key value="Q" />
+        <key value="A" />
+        <key value="Z" />
+        <key value="1" default="true"/>
+    </character>
+	
+	<character value="wsx">
+	    <key value="w" />
+	    <key value="s" />
+	    <key value="x" />
+	    <key value="2" default="true"/>
+	</character>
+
+    <character value="WSX">
+        <key value="W" />
+        <key value="S" />
+        <key value="X" />
+        <key value="2" default="true"/>
+    </character>
+	
+	<character value="edc">
+	    <key value="e" />
+	    <key value="d" />
+	    <key value="c" />
+	    <key value="3" default="true"/>
+	</character>
+
+    <character value="EDC">
+        <key value="E" />
+        <key value="D" />
+        <key value="C" />
+        <key value="3" default="true"/>
+    </character>
+	
+	<character value="rfv">
+	    <key value="r" />
+	    <key value="f" />
+	    <key value="v" />
+	    <key value="4" default="true"/>
+	</character>
+
+    <character value="RFV">
+        <key value="R" />
+        <key value="F" />
+        <key value="V" />
+        <key value="4" default="true"/>
+    </character>
+	
+	<character value="tgb">
+	    <key value="t" />
+	    <key value="g" />
+	    <key value="b" />
+	    <key value="5" default="true"/>
+	</character>
+
+    <character value="TGB">
+        <key value="T" />
+        <key value="G" />
+        <key value="B" />
+        <key value="5" default="true"/>
+    </character>
+	
+	<character value="yhn">
+	    <key value="y" />
+	    <key value="h" />
+	    <key value="n" />
+	    <key value="6" default="true"/>
+	</character>
+
+    <character value="YHN">
+        <key value="Y" />
+        <key value="H" />
+        <key value="N" />
+        <key value="6" default="true"/>
+    </character>
+	
+	<character value="ujm">
+	    <key value="u" />
+	    <key value="j" />
+	    <key value="m" />
+        <key value="7" default="true"/>
+	</character>
+
+    <character value="UJM">
+        <key value="U" />
+        <key value="J" />
+        <key value="M" />
+        <key value="7" default="true"/>
+    </character>
+	
+	<character value="ikl">
+	    <key value="i" />
+	    <key value="k" />
+	    <key value="l" />
+        <key value="8" default="true"/>
+	</character>
+
+    <character value="IKL">
+        <key value="I" />
+        <key value="K" />
+        <key value="L" />
+        <key value="8" default="true"/>
+    </character>
+	
+	<character value="op">
+	    <key value="o" />
+	    <key value="p" />
+	    <key value="9" default="true"/>
+	</character>
+
+    <character value="OP">
+        <key value="O" />
+        <key value="P" />
+        <key value="9" default="true"/>
+    </character>
+	
+	<character value=".">
+	    <key value="\u003f" default="true"/>
+	    <key value="!" />
+	    <key value="\u0040" />
+        <key value="," />
+	    <key value="0" />
+	</character>
+	
+	<character value=",">
+	    <key value=";" default="true"/>
+        <key value=":" />
+	    <key value="'" />
+	    <key value="\u0022" />
+	    <key value="\u2018" />
+	    <key value="\u201c" />
+	    <key value="\u02db" />
+	</character>
+</popups>

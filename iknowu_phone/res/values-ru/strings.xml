@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Title for Latin keyboard  -->
+    <string name="ime_name">Клавиатура iKnowU</string>
+    
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    
+    <!-- Preferences menu text -->
+    <string name="pref_title_assistance">Поддержка</string>
+    	<string name="pref_title_spaceless">Печать без пробела</string>
+    		<string name="pref_title_spaceless_summaryon">Текст будет вставлен после нажатия пробела.</string>
+    		<string name="pref_title_spaceless_summaryoff">Подсказка слов не будет работать если пробел пропушен.</string>
+    	<string name="pref_title_help">iKnowU Помощь</string>
+    		<string name="pref_title_help_summary">iKnowU Экран помощи</string>
+    	<string name="pref_title_capitalize">Заглавные</string>
+    		<string name="pref_title_capitalize_summaryon">Слова которые начинаю предложения будут с заглавной буквы.</string>
+    		<string name="pref_title_capitalize_summaryoff">Слова которые начинаю предложения не будут с заглавной буквы.</string>
+    	<string name="pref_title_autolearn">Авто-Запоминание</string>
+    		<string name="pref_title_autolearn_summaryon">Слова со знаком \'+\' будут сохранены если нажать на знак плюс.</string>
+    		<string name="pref_title_autolearn_summaryoff">Слова рядом со знаком \'+ \' потребует Нажматие и Удерживание, чтобы сохранить.</string>
+    	<string name="pref_title_autocorrect">Авто-Исправление</string>
+    		<string name="pref_title_autocorrect_summaryon">Испарвления будут видны в подсказках.</string>
+    		<string name="pref_title_autocorrect_summaryoff">Испарвления не будут видны в подсказках.</string>
+    	<string name="pref_title_autocorrect_insert">Авто-Вставления исправлений</string>
+    		<string name="pref_title_autocorrect_insert_summaryon">Авто-Вставления исправлений будет исправлять ошибки после нажатия пробела.</string>
+    		<string name="pref_title_autocorrect_insert_summaryoff">Авто-Вставления исправлений не будет исправлять ошибки после нажатия пробела.</string>
+    	<string name="pref_title_doublespace">Двойной пробел</string>
+    		<string name="pref_title_doublespace_summaryon">
+			
+			После нажатия пробела два раза подрят, будет поставлена точка.</string>
+    		<string name="pref_title_doublespace_summaryoff">После нажатия пробела два раза подрят, будет просто два пробела.</string>
+    
+    <string name="pref_title_feedback">Настройки клавиатуры</string>
+    	<string name="pref_title_vibrate">Вибрация</string>
+    		<string name="pref_title_vibrate_summary">Сила вибрации</string>
+    	<string name="pref_title_sound">Звук</string>
+    		<string name="pref_title_sound_summary">Громкость</string>
+    	<string name="pref_title_highlight">Подсказка букв на клавиатуре</string>
+    		<string name="pref_title_highlight_summaryon">Подсказка букв на клавиатуре включена.</string>
+    		<string name="pref_title_highlight_summaryoff">Подсказка букв на клавиатуре выключена.</string>
+    	<string name="pref_title_correction_indicate">Индикатор исправлений</string>
+    		<string name="pref_title_correction_indicate_summaryon">Когда произойдет исправление, клавиатура подаст короткий звук и вспышку.</string>
+    		<string name="pref_title_correction_indicate_summaryoff">Когда произойдет исправление, клавиатура не подаст короткий звук и вспышку.</string>
+    	<string name="pref_title_comment">Коментарии и поддержка</string>
+    		<string name="pref_title_comment_summary"> Пишите нам, мы всегда рады услышать коментарии о нашей клавиатуре!</string>
+    		
+    <string name="pref_title_cloud">Cloud/облачное хранение словарей</string>
+    	<string name="pref_title_cloud_signup">Подпись/Логин cloud sync</string>
+    		<string name="pref_title_cloud_signup_summary">Cloud аккаунт будет синхронизировать данные словарей на разных девайсах.</string>
+    	<string name="pref_title_cloud_enable">Cloud Sync Вкл/Выкл</string>
+    		<string name="pref_title_cloud_enable_summaryon">Синхронизация словарей на всех ваших устройствах.</string>
+    		<string name="pref_title_cloud_enable_summaryoff">Синхронизация словарей на всех ваших устройствах отключена.</string>
+    	
+    <string name="pref_title_personalize">Персональные настройки</string>
+    	<string name="pref_title_personalize_predfont">Размер текста подсказок.</string>
+    		<string name="pref_title_personalize_predfont_summary">Текст подсказок</string>
+    	<string name="pref_title_personalize_keyheight">Высота букв</string>
+    		<string name="pref_title_personalize_keyheight_summary">Установка высоты букв клавиатуры</string>
+    	<string name="pref_title_personalize_kbfont_style">Стиль шрифта клавиатуры</string>
+    		<string name="pref_title_personalize_kbfont_style_summary">Измени шрифт клавиатуры</string>
+    	<string name="pref_title_personalize_kblayout">Раскладка клавиатуры</string>
+    		<string name="pref_title_personalize_kblayout_summary">Выбери раскладку клавиатуры</string>
+    	<string name="pref_title_personalize_tabkblayout">Раскладка клавиатуры для "таблеток"</string>
+    		<string name="pref_title_personalize_tabkblayout_summary">Выбери раскладку клавиатуры для "таблетки"</string>
+    	<string name="pref_title_personalize_longpress">Время длительного нажатия</string>
+    		<string name="pref_title_personalize_longpress_summary">Истанови время длительного нажатия</string>
+    		<string name="pref_title_personalize_longpress_dialog">Время в миллисекундах</string>
+    	<string name="pref_title_personalize_kbtheme">Скины клавиатуры</string>
+    		<string name="pref_title_personalize_kbtheme_summary">Выбери скин клавиатуры</string>
+    	<string name="pref_title_personalize_handedness">Правша/Левша</string>
+    		<string name="pref_title_personalize_handedness_summaryon">Печать правой рукой</string>
+    		<string name="pref_title_personalize_handedness_summaryoff">Печать левой рукой</string>
+    	
+    <string name="pref_title_legal">О нас</string>
+    	<string name="pref_title_about">О Нас</string>
+    	<string name="pref_title_privacy">Сайт компании</string>
+    
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Старт</string>
+    <string name="label_next_key">Следующий</string>
+    <string name="label_send_key">Отправить</string>
+    <string name="label_ok_key">OK</string>
+    <string name="label_done_key">Готово</string>
+    
+    <string name="label_no_thanks">Нет спасибо</string>
+    
+    <string name="label_confirm">Подвердить</string>
+    <string name="label_settings">Установки</string>
+    <string name="label_help">Помощь</string>
+    
+    <string name="label_download">Загрузить</string>
+    <string name="label_update">Обновить</string>
+    <string name="label_delete">Удалить</string>
+    <string name="loading">Загрузить</string>
+    
+    <!-- Prompt for rating strings -->
+    <string name="prompt_rating_text">Спасибо за выбор клавиатуры iKnowU! Мы всега будем рады услышать от Вас Ваши коментарии и советы!</string>
+    
+    <!-- Expirery strings -->
+    <string name="expirery_text">Спасибо за инсталяцию пробной версии клавиатуры iKnowU! Купите полную версию для неограниченного доступа к клавиатуре iKnowU. </string>
+    
+    <!-- Notification Strings -->
+    <string name="dictionary_update_title">Обнавление словоря</string>
+    <string name="dictionary_update_message">Для ваших словарей доступны обновления </string>
+    
+    <!-- Dictionary arrange strings -->
+    <string name="dict_arrange_description">Нажмите галочки, чтобы включить / отключить словари. \ Перетаскивайте словори чтобы установить приоритет и также изменить клавиатуру. \n Верхний словарь из списка означает более высокий приоритет.</string>
+	
+    <string name="hide_keyboard">Скрыть\nКлавиатуру</string>
+    
+    <!-- Dictionary Manager Strings -->
+    <string name="dict_manager_title">Персональный словарь</string>
+    <string name="dict_manager_heading">Управление "Персональным словарем"</string>
+    <string name="add_word">Нажми \'+\' чтобы добавить слово.</string>
+    <string name="delete_word"> Нажми \'x\' чтобы удалить слово.</string>
+    <string name="your_words">Твои слова:</string>
+    
+    <!-- Dictionary downloader strings -->
+    <string name="dict_download_string">Языки</string>
+    <string name="set_top_priority_string">Готово!Хочешь ли ты установить этот словарь как основной?</string>
+    
+    <!-- For the setup menu -->
+    <string name="setup_choose_language_string">Выбери язык</string>
+    <string name="setup_uninstall_string">Удалить бесплатную версию</string>
+    <string name="setup_enable_string">Включить IKnowU</string>
+    <string name="setup_set_default_string">Установить IKnowU по умолчанию</string>
+    <string name="setup_cloud_signup_string">Настройка облачных синхронизации</string>
+    <string name="setup_learn_words_string">Анализ SMS</string>
+    <string name="setup_handedness_string">Правша/Левша</string>
+    <string name="setup_email_string">Электронная почта:</string>
+    <string name="setup_password_string">Пароль:</string>
+    
+    <string name="setup_setup_finished_string">Установка завершена!</string>
+    <string name="setup_help_vids_string">Видео со справками</string>
+    <string name="setup_goto_settings_string">Дополнитеоьные настройки</string>
+    <string name="setup_finish_string">Готово!</string>
+    
+    <string name="wait_hit_back">После включения IKnowU клавиатуры, нажмите "вернутся" кнопку на девайсе для продолжения процесса установки</string>
+    
+    <!-- Tutorial Strings -->
+    <string name="tutorial_title_help">iKnowU Помощь</string>
+    <string name="tutorial_title">iKnowU</string>
+    
+    <string name="tutorial_autocorrect_title">Авто-Исправления</string>
+    <string name="tutorial_gesturing_title">Вертикальные подсказки</string>
+    <string name="tutorial_prediction_title">Горизонкальные подсказки</string>
+    <string name="tutorial_highlight_title">Подсказка букв</string>
+    <string name="tutorial_popup_title">Всплывающие дополнительные Клавиатуры</string>
+    
+    <string name="tutorial_welcome">
+	Спасибо что выбрали iKnowU Клавиатуру! Прежде чем вы начнете использовать нашу клавиатуру, пожалуйста, посматрите несколько советов. \n\nНажмите кнопку, чтобы продолжить.
+  		
+    </string>
+    
+    <string name="tutorial_autocorrect">
+Автоматическое исправление будет отображаться в линии подсказок над клавиатурой.
+Для использования автоматической коррекции вы можете просто нажать на слово , или еще лучше, просто нажмите пробел!Слов с жирным шрифтом будет вставленно полсле нажатия пробела.
+Если автокоррекции вставила то, что вы не хотите, вы можете просто выбрать зеленый/старый вариант слова на линии подсказок.
+Если слово зелёного цвета имеет знак \'+\' рядом с ним, вы можете его нажать и удерживать, чтобы это слово добавить в свой личный словарь. Добавлять слова можно также в меню Персонального словоря.
+    </string>
+    
+    <string name="tutorial_swipe_erase">
+		Как быстро стереть предыдущее слово? Все что вам нужно сделать, это быстро провести пальцем справа налево по клавиатуре!
+    </string>
+    
+    <string name="tutorial_gesturing">
+	Вертикальная подсказка. 
+	Просто нажмите и держите пробел несколько секунд чтобы загрузить подсказки.
+    	Кроме того, некоторые слова могут иметь \"...\" окончание, держа палец на слове с \"...\" , вам будет предложено выбрать больше слов подсказок!
+    </string>
+    
+    <string name="tutorial_prediction_bar">
+iKnowU клавиатуры всегда отслеживает то, что вы набираете. 
+Чтобы выбрать слово, просто, нажмите на него. 
+Кроме того, если слово в линии подсказки с \"...\" на конце , просто нажмите и удерживайте на нем, чтобы получить больше похожих слов подсказок с разными окончаниями.
+    </string>
+    
+    <string name="tutorial_highlight">
+iKnowU клавиатура покажет вам, какие буквы вы скорее всего будете нажимать. 
+Синий цвет показывает, наиболее высокий приоритет. 
+Зеленый цвет показывает, мение высокий приоритет чем синий. 
+
+    </string>
+    
+    <string name="tutorial_popup">
+  	Дополнительные символы. 
+    Для выбора дополнительных символов просто нажмите и удерживайте на букве, затем выберите нужный символ.
+    </string>
+</resources>

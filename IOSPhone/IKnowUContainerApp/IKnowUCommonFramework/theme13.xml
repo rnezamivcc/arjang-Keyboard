@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Zorin theme -->
+<theme>
+	<item name="keyColor" value="0xFF0E0E0E"></item>
+	<item name="keyPressedColor" value="0xFF383838"></item>
+	<item name="keyDarkColor" value="0xFF282828"></item>
+	<item name="backgroundColor" value="0xFF8f8f8f"></item>
+	<item name="upperIconColor" value="0xFF9f9f9f"></item>
+    <!-- Original key highlight colours -->
+    <!--<item name="keyColorMoreThan5" value="0xFF007399"></item>--> <!-- blue -->
+    <!--<item name="keyColorLessThan5" value="0xFF009926"></item>--> <!-- green -->
+	<item name="keyColorMoreThan5" value="0xFF005C17"></item>
+	<item name="keyColorLessThan5" value="0xFF005C17"></item>
+    <item name="compressedColorMoreThan5" value="0xFF00C956"></item>
+    <item name="compressedColorLessThan5" value="0xFF00C956"></item>
+	<item name="keyTextColor" value="0xFFeFeFeF"></item>
+	<item name="style" value="0"></item>
+	<item name="stroke" value="1"></item>
+	<item name="keyShadowColor" value="0xEE000000"></item>
+	<item name="candidateBackground" value="0xFF8f8f8f"></item>
+	<item name="candidateTextColor" value="0xFFeFeFeF"></item>
+	<item name="highestPriorityColor" value="0xFFdfdfdf"></item>
+	<item name="candidateSelectedColor" value="0xFF007399"></item>
+	<item name="candidateAddWordColor" value="0xFF71C671"></item>
+	<item name="candidateDeleteWordColor" value="0xFFb22222"></item>
+	<item name="useGradient" value="true"></item>
+	<item name="gradientDirection" value="1"></item>
+	<item name="cornerRadiusX" value="5"></item>
+	<item name="cornerRadiusY" value="5"></item>
+	<item name="searchItemColor" value="0xFF9f9f9f"></item>
+	<item name="searchItemPressedColor" value="0xFFcFcFcF"></item>
+	<item name="searchBackColor" value="0xFF282828"></item>
+	<item name="searchItemTextColor" value="0xFFFFFFFF"></item>
+	<item name="previewBackgroundColor" value="0xFFFFFFFF"></item>
+	<item name="previewTextColor" value="0xFF0E0E0E"></item>
+	<item name="previewBorderColor" value="0xFF9f9f9f"></item>
+</theme>

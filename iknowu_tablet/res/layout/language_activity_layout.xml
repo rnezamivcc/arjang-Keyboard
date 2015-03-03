@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center_horizontal"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDFDFDF"
+    android:padding="5dp"
+    >
+    <!--
+    <Button
+        android:id="@+id/confirm_language_button"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true"
+   		android:layout_height="wrap_content"
+   		android:layout_width="match_parent"
+   		android:text="@string/label_confirm"
+   		android:textColor="#FFFFFFFF"
+   		android:textSize="20sp"
+   		android:background="@drawable/green_state_button"
+   		android:padding="5dp"
+   		android:onClick="close"
+   		/>
+    -->
+    
+    <TextView 
+        android:id="@+id/language_text_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@drawable/info_bg_white"
+        android:textColor="#FF1E87D2"
+        android:textSize="16sp"
+        android:text="@string/dict_arrange_description"
+        />
+    
+	<com.iknowu.draganddrop.DragDropScrollView
+		android:id="@+id/language_scrollview"
+		android:layout_below="@id/language_text_help"
+   		android:layout_width="match_parent"
+   		android:layout_height="match_parent"
+   		android:fillViewport="true"
+  		>
+  		
+		<com.iknowu.downloader.DictionaryList
+			android:id="@+id/language_linlayout"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			/>
+	</com.iknowu.draganddrop.DragDropScrollView>
+
+	<RelativeLayout
+    	android:id="@+id/language_relative"
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+</RelativeLayout>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<popups>
+	<character value="\u0430"> <!-- а  was a -->
+	    <key value="%" default="true"/>
+	    <key value="\u0410" />
+	</character>
+	
+	<character value="\u0410"> <!--А  was A -->
+	    <key value="%" default="true"/>
+	    <key value="\u0430" />
+	   </character>
+	
+	<character value="\u0431"> <!-- б  was b -->
+	    <key value="[" default="true"/>
+	    <key value="\u0411" />
+	</character>
+	
+	<character value="\u0411"> <!-- Б  was B -->
+	    <key value="[" default="true"/>
+	    <key value="\u0431" />
+	</character>
+	
+	<character value="\u0432"> <!-- в  was c -->
+	    <key value="$" default="true"/>
+	    <key value="\u0412" />
+	</character>
+	
+	<character value="\u0412"> <!-- В  was C -->
+	    <key value="$" default="true"/>
+	    <key value="\u0432" />
+	</character>
+	
+	<character value="\u0433"> <!-- г  was d -->
+	    <key value="6" default="true"/>
+	    <key value="\u0413" />
+	</character>
+	
+	<character value="\u0413"> <!-- Г  was D -->
+	    <key value="6" default="true"/>
+	    <key value="\u0433" />
+	</character>
+	
+	<character value="\u0434"> <!-- д  was e -->
+	    <key value="(" default="true"/>
+	    <key value="\u0414" />
+	</character>
+	
+	<character value="\u0414"> <!-- Д  was E -->
+	    <key value="(" default="true"/>
+	    <key value="\u0434" />
+	</character>
+	
+	<character value="\u0435"> <!-- е  was f -->
+	    <key value="\u0451" default="true"/>
+		<key value="\u0415" />
+	</character>
+	
+	<character value="\u0415"> <!-- Е  was F -->
+	    <key value="\u0401" default="true"/>
+	    <key value="\u0435" />
+	</character>
+	
+	<character value="\u0436"> <!-- ж  was g -->
+	    <key value=")" default="true"/>
+	    <key value="\u0416" />
+	</character>
+	
+	<character value="\u0416"> <!-- Ж  was G -->
+	    <key value=")" default="true"/>
+	    <key value="\u0436" />
+	</character>
+	
+	<character value="\u0437"> <!-- з  was h -->
+	    <key value="9" default="true"/>
+	    <key value="\u0417" />
+	</character>
+	
+	<character value="\u0417"> <!-- З  was H -->
+	    <key value="9" default="true"/>
+	    <key value="\u0437" />
+	</character>
+	
+	<character value="\u0438"> <!-- и  was i -->
+	    <key value=";" default="true"/>
+	    <key value="\u0418" />
+	</character>
+	
+	<character value="\u0418"> <!-- И  was I -->
+	    <key value=";" default="true"/>
+	    <key value="\u0438" />
+	</character>
+	
+	<character value="\u0439"> <!-- й  was j -->
+	    <key value="1" default="true"/>
+	    <key value="\u0419" />
+	</character>
+	
+	<character value="\u0419"> <!-- Й  was J -->
+	    <key value="1" default="true"/>
+	    <key value="\u0439" />
+	</character>
+	
+	<character value="\u043A"> <!-- к  was k -->
+	    <key value="4" default="true"/>
+	    <key value="\u041A" />
+	</character>
+	
+	<character value="\u041A"> <!-- К  was K -->
+	    <key value="4" default="true"/>
+	    <key value="\u043A" />
+	</character>
+	
+	<character value="\u043B"> <!-- л  was l -->
+	    <key value="+" default="true"/>
+	    <key value="\u041B" />
+	</character>
+	
+	<character value="\u041B"> <!-- Л  was L -->
+	    <key value="+" default="true"/>
+	    <key value="\u043B" />
+	</character>
+	
+	<character value="\u043C"> <!-- м  was m -->
+	    <key value=":" default="true"/>
+	    <key value="\u041C" />
+	</character>
+	
+	<character value="\u041C"> <!-- М  was M -->
+	    <key value=":" default="true"/>
+	    <key value="\u043C" />
+	</character>
+	
+	<character value="\u043D"> <!-- н  was n -->
+	    <key value="5" default="true"/>
+	    <key value="\u041D" />
+	</character>
+	
+	<character value="\u041D"> <!-- Н  was N -->
+	    <key value="5" default="true"/>
+	    <key value="\u043D" />
+	</character>
+	
+	<character value="\u043E"> <!-- o  was o -->
+	    <key value="-" default="true"/>
+	    <key value="\u041E" />
+	</character>
+	
+	<character value="\u041E"> <!-- O  was O -->
+	    <key value="-" default="true"/>
+	    <key value="\u043E" />
+	</character>
+	
+	<character value="\u043F"> <!-- п  was p -->
+	    <key value="&amp;" default="true"/>
+	    <key value="u041F" />
+	</character>
+	
+	<character value="\u041F"> <!-- П  was P -->
+	    <key value="&amp;" default="true"/>
+	    <key value="u043F" />
+	</character>
+	
+	<character value="\u0440"> <!-- р  was q -->
+	    <key value="*" default="true"/>
+	    <key value="\u0420" />
+	</character>
+	
+	<character value="\u0420"> <!-- P  was Q -->
+	    <key value="*" default="true"/>
+	    <key value="\u0440" />
+	</character>
+	
+	<character value="\u0441"> <!-- c  was r -->
+	    <key value="'" default="true"/>
+	    <key value="\u0421" />
+	</character>
+	
+	<character value="\u0421"> <!-- C  was R -->
+	    <key value="'" default="true"/>
+	    <key value="\u0441" />
+	</character>
+	
+	<character value="\u0442"> <!-- т  was s -->
+	    <key value="/" default="true"/>
+	    <key value="\u0422" />
+	</character>
+	
+	<character value="\u0422"> <!-- Т  was S -->
+	    <key value="/" default="true"/>
+	    <key value="\u0442" />
+	</character>
+	
+	<character value="\u0443"> <!-- у  was t -->
+	    <key value="3" default="true"/>
+	    <key value="\u0423" />
+	</character>
+	
+	<character value="\u0423"> <!-- У  was T -->
+	    <key value="3" default="true"/>
+	    <key value="\u0443" />
+	</character>
+	
+	<character value="\u0444"> <!-- ф  was u -->
+	    <key value="\u0040" default="true"/>
+	    <key value="\u0424" />
+	</character>
+	
+	<character value="\u0424"> <!-- Ф was U -->
+	    <key value="\u0040" default="true"/>
+	    <key value="\u0444" />
+	</character>
+	
+	<character value="\u0445"> <!-- x was v -->
+	    <key value="0" default="true"/>
+	    <key value="\u0425" />
+	</character>
+	
+	<character value="\u0425"> <!-- X was V -->
+	    <key value="0" default="true"/>
+	    <key value="u0445" />
+	</character>
+	
+	<character value="\u0446"> <!-- ц was w -->
+	    <key value="2" default="true"/>
+	    <key value="\u0426" />
+	</character>
+	
+	<character value="\u0426"> <!-- Ц was W -->
+	    <key value="2" default="true"/>
+	    <key value="\u0446" />
+	</character>
+	
+	<character value="\u0447"> <!-- ч was x -->
+	    <key value="\u0022" default="true"/>
+	    <key value="\u0427" />
+	</character>
+	
+	<character value="\u0427"> <!-- Ч was X -->
+	    <key value="\u0022" default="true"/>
+	    <key value="\u0447" />
+	</character>
+	
+	<character value="\u0448"> <!-- ш was y -->
+	    <key value="7" default="true"/>
+	    <key value="\u0428" />
+	</character>
+	
+	<character value="\u0428"> <!-- Ш was Y -->
+	    <key value="7" default="true"/>
+	    <key value="\u0448" />
+	</character>
+	
+	<character value="\u0449"> <!-- щ was z -->
+	    <key value="8" default="true"/>
+	    <key value="\u0429" />
+	</character>
+	
+	<character value="\u0429"> <!-- Щ was Z -->
+	    <key value="8" default="true"/>
+	    <key value="\u0449" />
+	</character>
+	
+	<character value="\u044B"> <!-- ы -->
+	    <key value="\u0023" default="true"/>
+	    <key value="\u042B" />
+	</character>
+	
+	<character value="\u042B"> <!-- Ы -->
+	    <key value="\u0023" default="true"/>
+	    <key value="\u044B" />
+	</character>
+	
+	<character value="\u044C"> <!-- ь -->
+	    <key value="\u044A" default="true"/>
+	    <key value="\u042C" />
+	</character>
+	
+	<character value="\u042C"> <!-- Ь -->
+	    <key value="\u042A" default="true"/>
+	    <key value="\u044C" />
+	</character>
+	
+	<character value="\u044D"> <!-- э -->
+	    <key value="\u003f" default="true"/>
+	    <key value="\u042D" />
+	</character>
+	
+	<character value="\u042D"> <!-- Э -->
+	    <key value="\u003f" default="true"/>
+	    <key value="\u044D" />
+	</character>
+	
+	<character value="\u044E"> <!-- ю -->
+	    <key value="]" default="true"/>
+	    <key value="\u042E" />
+	</character>
+	
+	<character value="\u042E"> <!-- Ю -->
+	    <key value="]" default="true"/>
+	    <key value="\u044E" />
+	</character>
+	
+	<character value="\u044F"> <!-- я -->
+	    <key value="!" default="true"/>
+	    <key value="\u042F" />
+	</character>
+	
+	<character value="\u042F"> <!-- Я -->
+	    <key value="!" default="true"/>
+	    <key value="\u044F" />
+	</character>
+	
+	
+	<character value="."> 
+	    <key value=":" default="true"/>
+	    <key value="!" />
+	    <key value=".com" />
+	    <key value=".us" />
+	    <key value=".ru" />
+	    <key value="&#x2022;" />
+	    <key value="&#x2026;" />
+	    <key value=".net" />
+	    <key value=".gov" />
+	    <key value=".org" />
+	</character>
+	
+	<character value=","> 
+	    <key value=";" default="true"/>
+	    <key value="'" />
+	    <key value="\u0022" />
+	    <key value="\u2018" />
+	    <key value="\u201c" />
+	    <key value="\u02db" />
+	</character>
+</popups>

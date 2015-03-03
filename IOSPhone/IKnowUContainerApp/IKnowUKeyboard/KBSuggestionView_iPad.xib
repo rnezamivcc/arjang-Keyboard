@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" contentMode="TopLeft" id="iN0-l3-epB" customClass="KBSuggestionView">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" indicatorStyle="white" id="PSc-gP-1HF" customClass="MazeScrollView">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="70"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="1QQ-My-yds">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="70"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0vn-DK-ivy" customClass="KBPhraseButton">
+                                    <rect key="frame" x="158" y="2" width="150" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ovu-56-pRh"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="O8w-zm-pUs" customClass="KBPhraseButton">
+                                    <rect key="frame" x="309" y="2" width="150" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="zMc-yD-8iL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gE9-a9-I9X" customClass="KBPhraseButton">
+                                    <rect key="frame" x="460" y="2" width="150" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vva-dx-DaM"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fAZ-fT-DDh" customClass="KBPredButton">
+                                    <rect key="frame" x="132" y="34" width="100" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <gestureRecognizers/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="LM5-vP-4KU"/>
+                                        <outletCollection property="gestureRecognizers" destination="mLm-XM-Gmt" appends="YES" id="DqO-5j-jYd"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wRH-Ft-OAS" customClass="KBPredButton">
+                                    <rect key="frame" x="233" y="34" width="100" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <gestureRecognizers/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="u62-uH-XhL"/>
+                                        <outletCollection property="gestureRecognizers" destination="pJs-R3-chi" appends="YES" id="ZlZ-cR-gbw"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kjq-1M-raa" customClass="KBPredButton">
+                                    <rect key="frame" x="334" y="34" width="100" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <gestureRecognizers/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="zcd-3G-bi9"/>
+                                        <outletCollection property="gestureRecognizers" destination="b8K-K7-Wmt" appends="YES" id="JGP-Dw-YW4"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9ct-Nv-qjh" customClass="KBPredButton">
+                                    <rect key="frame" x="537" y="34" width="100" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <gestureRecognizers/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vmg-Il-fIT"/>
+                                        <outletCollection property="gestureRecognizers" destination="e3Z-tv-zEK" appends="YES" id="g73-2V-pTV"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="w8y-ee-VyE" customClass="KBPredButton">
+                                    <rect key="frame" x="435" y="34" width="100" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <gestureRecognizers/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="N4N-gB-gyO"/>
+                                        <outletCollection property="gestureRecognizers" destination="uXe-cD-MzI" appends="YES" id="HT6-sR-PcO"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentView" destination="1QQ-My-yds" id="KNz-8y-TV7"/>
+                <outlet property="phraseOneButton" destination="0vn-DK-ivy" id="B1h-av-OSW"/>
+                <outlet property="phraseThreeButton" destination="gE9-a9-I9X" id="nKe-vr-ZUo"/>
+                <outlet property="phraseTwoButton" destination="O8w-zm-pUs" id="OIT-sA-6QP"/>
+                <outlet property="predFiveButton" destination="9ct-Nv-qjh" id="Hos-s5-4wD"/>
+                <outlet property="predFourButton" destination="w8y-ee-VyE" id="KFJ-iP-5TC"/>
+                <outlet property="predOneButton" destination="fAZ-fT-DDh" id="LG9-aH-dWb"/>
+                <outlet property="predThreeButton" destination="kjq-1M-raa" id="IOK-gQ-Iqe"/>
+                <outlet property="predTwoButton" destination="wRH-Ft-OAS" id="67m-8I-t4K"/>
+                <outlet property="scrollView" destination="PSc-gP-1HF" id="l7c-uX-qDJ"/>
+            </connections>
+            <point key="canvasLocation" x="151" y="149"/>
+        </view>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="e3Z-tv-zEK">
+            <connections>
+                <action selector="buttonLongPressed:" destination="iN0-l3-epB" id="Riy-4z-dhq"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="uXe-cD-MzI">
+            <connections>
+                <action selector="buttonLongPressed:" destination="iN0-l3-epB" id="JxO-JX-dIh"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="b8K-K7-Wmt">
+            <connections>
+                <action selector="buttonLongPressed:" destination="iN0-l3-epB" id="1Gu-Z4-WbT"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="pJs-R3-chi">
+            <connections>
+                <action selector="buttonLongPressed:" destination="iN0-l3-epB" id="AWS-gf-nme"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="mLm-XM-Gmt">
+            <connections>
+                <action selector="buttonLongPressed:" destination="iN0-l3-epB" id="k7i-ct-D4h"/>
+            </connections>
+        </pongPressGestureRecognizer>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

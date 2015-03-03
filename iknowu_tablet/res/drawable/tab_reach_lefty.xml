@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/tab_reach_pressed_lefty" /> <!-- pressed -->
+    <item android:state_selected="true"
+          android:drawable="@drawable/tab_reach_selected_lefty" /> <!-- selected -->
+    <item android:state_activated="true"
+        android:drawable="@drawable/tab_reach_activated_lefty" /> <!-- selected -->
+    <item android:drawable="@drawable/tab_reach_deselected_lefty" /> <!-- default -->
+</selector>

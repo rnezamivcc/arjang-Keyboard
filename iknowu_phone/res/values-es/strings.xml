@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!-- Title for Latin keyboard  -->
+    <string name="ime_name">Teclado iKnowU</string>
+    
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    
+    <!-- Preferences menu text -->
+    <string name="pref_title_assistance">Asistencia</string>
+    	<string name="pref_title_help">Ayuda iKnowU</string>
+    		<string name="pref_title_help_summary">Pantalla de ayuda iKnowU</string>
+    	<string name="pref_title_capitalize">Mayúsculas</string>
+    		<string name="pref_title_capitalize_summaryon">La inicial de la palabra que comience la oración aparecerá automáticamente en mayúsculas.</string>
+    		<string name="pref_title_capitalize_summaryoff">La inicial de la palabra que comience la oración no aparecerá automáticamente en mayúsculas.</string>
+    	<string name="pref_title_autolearn">Autoaprendizaje </string>
+    		<string name="pref_title_autolearn_summaryon">Las palabras que vayan acompañadas del signo \'+\' se guardarán automáticamente al teclearlas.</string>
+    		<string name="pref_title_autolearn_summaryoff">Las palabras que vayan acompañadas del signo \'+\' se deberán teclear y mantener pulsadas para que queden guardadas.</string>
+    	<string name="pref_title_autocorrect">Autocorrección </string>
+    		<string name="pref_title_autocorrect_summaryon"> iKnowU mostrará las correcciones en la barra de predicción.</string>
+    		<string name="pref_title_autocorrect_summaryoff"> iKnowU no mostrará las correcciones en la barra de predicción.</string>
+    	<string name="pref_title_autocorrect_insert">Insertar autocorrección</string>
+    		<string name="pref_title_autocorrect_insert_summaryon">El autocorrector insertará la corrección automáticamente.</string>
+    		<string name="pref_title_autocorrect_insert_summaryoff">La corrección deberá insertarse manualmente.</string>
+    	<string name="pref_title_doublespace">Doble espacio</string>
+    		<string name="pref_title_doublespace_summaryon">Se insertará un punto cuando aparezcan dos espacios consecutivos.</string>
+    		<string name="pref_title_doublespace_summaryoff">Dos espacios consecutivos serán simplemente dos espacios.</string>
+    
+    <string name="pref_title_feedback">Respuesta de teclado/usuario</string>
+    	<string name="pref_title_vibrate">Respuesta con vibración</string>
+    		<string name="pref_title_vibrate_summary">Establecer intensidad de la vibración al pulsar las teclas</string>
+    	<string name="pref_title_sound">Respuesta con sonido</string>
+    		<string name="pref_title_sound_summary">Establecer intensidad del sonido al pulsar las teclas</string>
+    	<string name="pref_title_highlight">Resaltar teclas</string>
+    		<string name="pref_title_highlight_summaryon">Se resaltarán en color las letras con mayor probabilidad de ser tecleadas</string>
+    		<string name="pref_title_highlight_summaryoff">No se resaltarán en color las letras con mayor probabilidad de ser tecleadas</string>
+    	<string name="pref_title_comment">Comentar o informar sobre un problema</string>
+    		<string name="pref_title_comment_summary">Danos tu opinión</string>
+    		
+    <string name="pref_title_cloud">Servicios en la nube</string>
+    	<string name="pref_title_cloud_signup">Registrarse/Iniciar sesión para la sincronización en la nube</string>
+    		<string name="pref_title_cloud_signup_summary">Conectando los servicios en la nube, se podrán sincronizar los diccionarios a través de los diferentes dispositivos, permitiendo que las palabras registradas en el diccionario estén disponibles en todos los dispositivos.</string>
+    	<string name="pref_title_cloud_enable">Activar/Desactivar la sincronización en la nube</string>
+    		<string name="pref_title_cloud_enable_summaryon">Los diccionarios están sincronizados en todos los dispositivos.</string>
+    		<string name="pref_title_cloud_enable_summaryoff">Los diccionarios no están sincronizados en todos los dispositivos.</string>
+    	
+    <string name="pref_title_personalize">Personalizar</string>
+    	<string name="pref_title_personalize_predfont">Tamaño de la fuente de predicción</string>
+    		<string name="pref_title_personalize_predfont_summary">El tamaño de la fuente para las predicciones mostradas</string>
+    	<string name="pref_title_personalize_keyheight">Altura de las teclas</string>
+    		<string name="pref_title_personalize_keyheight_summary">Establecer la altura de las teclas en el teclado</string>
+    	<string name="pref_title_personalize_kblayout"> Distribución de teclado</string>
+    		<string name="pref_title_personalize_kblayout_summary">Seleccionar la distribución de teclado para escribir</string>
+    	<string name="pref_title_personalize_tabkblayout">Distribución de teclado para tabletas</string>
+    		<string name="pref_title_personalize_tabkblayout_summary">Establecer la distribución de teclado para escribir en tabletas</string>
+    	<string name="pref_title_personalize_longpress">Tiempo para pulsación larga</string>
+    		<string name="pref_title_personalize_longpress_summary">Determina el tiempo que debe ser pulsada una tecla para que se convierta en una pulsación larga</string>
+    		<string name="pref_title_personalize_longpress_dialog">Tiempo en milésimas de segundos</string>
+    	<string name="pref_title_personalize_kbtheme">Tema de teclado</string>
+    		<string name="pref_title_personalize_kbtheme_summary">Establecer el tema de teclado</string>
+    	<string name="pref_title_personalize_handedness">Seleccionar la preferencia de mano</string>
+    		<string name="pref_title_personalize_handedness_summaryon">Está activado el modo para diestros</string>
+    		<string name="pref_title_personalize_handedness_summaryoff">Está activado el modo para zurdos</string>
+    	
+    <string name="pref_title_legal">Información legal</string>
+    	<string name="pref_title_about">Sobre WordLogic</string>
+    	<string name="pref_title_privacy">Información legal y aviso de privacidad</string>
+    
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Ir</string>
+    <string name="label_next_key">Siguiente</string>
+    <string name="label_send_key">Enviar</string>
+    <string name="label_ok_key">OK</string>
+    <string name="label_done_key">HECHO</string>
+    
+    <string name="label_no_thanks">No, gracias</string>
+    
+    <string name="label_confirm">Confirmar</string>
+    <string name="label_settings">Ajustes</string>
+    <string name="label_help">Ayuda</string>
+    
+    <string name="label_download">Descargar</string>
+    <string name="label_update">Actualizar</string>
+    <string name="label_delete">Eliminar</string>
+    <string name="loading">Cargando</string>
+    
+    <!-- Prompt for rating strings -->
+    <string name="prompt_rating_text">Gracias por elegir el teclado iKnowU. Danos tu opinión.</string>
+    
+    <!-- Dictionary arrange strings -->
+    <string name="dict_arrange_description">Seleccionar las casillas para activar/desactivar los diccionarios.\nPulsar y mantener presionado el idioma y arrastrar para establecer la prioridad.\nEl inicio de la lista indica mayor prioridad.</string>
+    <string name="dict_arrange_title">Configuración\n de diccionario</string>
+    
+    <!-- Dictionary Manager Strings -->
+    <string name="dict_manager_title">Gestor\n de diccionario</string>
+    <string name="dict_manager_heading">Área de gestión del diccionario personal</string>
+    <string name="add_word">Escribir una palabra en el recuadro y pulsar \'+\' para añadir la palabra al diccionario.</string>
+    <string name="delete_word">Pulsar \'x\' para eliminar una palabra del diccionario.</string>
+    <string name="your_words">Palabras del diccionario personal:</string>
+    
+    <!-- Dictionary downloader strings -->
+    <string name="dict_download_string">Descargar diccionario</string>
+    <string name="set_top_priority_string">Descarga completada. ¿Establecer el nuevo diccionario como principal?</string>
+    
+    <!-- For the setup menu -->
+    <string name="setup_choose_language_string">Elegir idioma</string>
+    <string name="setup_uninstall_string">Eliminar versiones gratuitas</string>
+    <string name="setup_enable_string">Activar iKnowU</string>
+    <string name="setup_set_default_string">Establecer iKnowU como predeterminado</string>
+    <string name="setup_cloud_signup_string">Configurar la sincronización en la nube</string>
+    <string name="setup_learn_words_string">Analizar SMS</string>
+    <string name="setup_handedness_string">Establecer la preferencia de mano</string>
+    <string name="setup_email_string">Correo electrónico:</string>
+    <string name="setup_password_string">Contraseña:</string>
+    
+    <string name="setup_setup_finished_string">Configuración completada</string>
+    <string name="setup_help_vids_string">Ver videos de ayuda</string>
+    <string name="setup_goto_settings_string">Personalización avanzada</string>
+    <string name="setup_finish_string">Escribir ahora</string>
+    
+    <string name="wait_hit_back">Una vez activado el teclado iKnowU, pulsar el botón de retroceso para continuar con el proceso de configuración</string>
+    
+    <!-- Tutorial Strings -->
+    <string name="tutorial_title_help">Ayuda iKnowU</string>
+    <string name="tutorial_title">iKnowU</string>
+    
+    <string name="tutorial_autocorrect_title">Autocorrección</string>
+    <string name="tutorial_gesturing_title">Gesturing™</string>
+    <string name="tutorial_prediction_title">Barra de predicción</string>
+    <string name="tutorial_highlight_title">Resaltar teclas</string>
+    <string name="tutorial_popup_title">Teclados emergentes</string>
+    
+    <string name="tutorial_welcome">Gracias por elegir el teclado iKnowU. Antes de comenzar, lea unos consejos que le ayudarán a utilizar el teclado de una manera óptima. \n\nPulsar Siguiente para continuar.</string>
+    
+    <string name="tutorial_autocorrect">El nuevo teclado presenta una mayor funcionalidad. \n\n   Esta nueva versión de iKnowU posee un autocorrector con un mayor grado de anticipación y acierto.\n\n   Las autocorrecciones aparecerán en la barra de predicción en la parte superior del teclado. Para utilizar una autocorrección, simplemente debe pulsar en ella en la barra de predicción o bien presionar la barra de espacio.  Se insertará la palabra en negrita. En el caso de que el autocorrector inserte una palabra no deseada, puede recuperar lo escrito anteriormente seleccionando en la barra de predicción la palabra escrita en verde. Si la palabra escrita en verde va acompañada del signo \'+\', simplemente presione y mantenga pulsada la palabra  para recuperarla Y añadirla al diccionario personal.</string>
+    
+    <string name="tutorial_swipe_erase">Ahora también puede eliminar de manera más fácil la palabra anterior, simplemente deslizando el dedo de derecha a izquierda.</string>
+    
+    <string name="tutorial_gesturing">El teclado iKnowU permite crear palabras y expresiones con un simple toque de teclado.\n\n   Sólo debe teclear una letra y mantener pulsada la barra de espacio.\n\n   Para seleccionar una palabra, simplemente deslice el dedo sobre ella.\n\n   Algunas palabras pueden ir acompañadas de puntos suspensivos \'…\'; si presiona y mantiene pulsada una de ellas, la seleccionará y aparecerá un nuevo grupo de predicciones.</string>
+    
+    <string name="tutorial_prediction_bar">El teclado iKnowU registra todo lo que escribe. \n\n   La barra de la parte superior del teclado mostrará constantemente las predicciones de palabras y expresiones que pueden ser tecleadas a continuación.\n\n   Para seleccionar una palabra, simplemente debe pulsar en ella.\n\n   Si una palabra de la barra de predicción va acompañada de puntos suspensivos \'…\', sólo se debe presionar y mantener pulsada la palabra para ver más predicciones.</string>
+    
+    <string name="tutorial_highlight">El teclado iKnowU resalta las teclas con mayor probabilidad de ser pulsadas a continuación.\n\n   Las teclas resaltadas en azul indican que existen más de cinco predicciones para esa letra.\n\n   Las teclas resaltadas en verde indican que existen cinco o menos predicciones para esa letra .\n\n   Mediante la predicción de teclas, resulta más fácil encontrar la letra que se desea teclear a continuación.</string>
+    
+    <string name="tutorial_popup">Cada tecla puede insertar varios caracteres diferentes.\n\n      Para elegir un carácter diferente, presione y mantenga pulsada la tecla donde se encuentre el carácter deseado y deslice el dedo hasta ella para seleccionarla.</string>
+</resources>

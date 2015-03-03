@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height">
+
+    <Row android:rowEdgeFlags="top" android:keyWidth="20%p">
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_smile" android:keyOutputText=":-) " keyUprDescriptionLabel="Smile"  android:keyEdgeFlags="left"  />
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_sad" android:keyOutputText=":-( " keyUprDescriptionLabel="Frown"/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_wink" android:keyOutputText=";-) " keyUprDescriptionLabel="Wink"/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_tongue" android:keyOutputText=":-P " keyUprDescriptionLabel="Tongue"/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_gasp" android:keyOutputText="=-O " keyUprDescriptionLabel="Wow" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:keyWidth="20%p">
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_kiss" android:keyOutputText=":-* " keyUprDescriptionLabel="Kiss" android:keyEdgeFlags="left" />
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_angry" android:keyOutputText=":O " keyUprDescriptionLabel="Yell"/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_glasses" android:keyOutputText="B-) " keyUprDescriptionLabel="Cool"/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_money" android:keyOutputText=":-$ " keyUprDescriptionLabel="Money"/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_scared" android:keyOutputText=":-! " keyUprDescriptionLabel="Scared" android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyWidth="20%p">
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_blushing" android:keyOutputText=":-[ " keyUprDescriptionLabel="Blushing"  />
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_angel" android:keyOutputText="O:-) " keyUprDescriptionLabel="Innocent"/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_crying" android:keyOutputText=":'( " keyUprDescriptionLabel="Crying"/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_grin" android:keyOutputText=":-D " keyUprDescriptionLabel="Laugh"/>
+        <Key android:codes="-5"  android:keyIcon="@drawable/sym_keyboard_backspace" android:keyEdgeFlags="right" keyDarkBackground="true" />
+    </Row>
+    
+     <Row android:keyWidth="10.0%p" android:rowEdgeFlags="bottom" verticalGap="0dp">
+        <Key android:codes="-6" android:keyIcon="@drawable/keyabclabel" android:popupKeyboard="@layout/popup_kbchoices" android:keyWidth="20%p" keyDarkBackground="true"/>
+        <Key android:codes="32" android:keyWidth="60%p" android:keyIcon="@drawable/sym_keyboard_space"/>
+      	<Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" android:keyWidth="20%p" android:keyEdgeFlags="right" keyDarkBackground="true" />
+    </Row>
+</Keyboard>
+
+

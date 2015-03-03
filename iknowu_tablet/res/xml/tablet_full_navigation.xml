@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+      android:horizontalGap="0%p"
+      android:keyHeight="@dimen/key_height"
+      android:verticalGap="5dp">
+      
+	<Row android:keyWidth="15%p">
+		<Key android:codes="-50" android:keyLabel="COPY" android:horizontalGap="20%p"/>
+		<Key android:codes="-51" android:keyLabel="CUT" />
+		<Key android:codes="-52" android:keyLabel="PASTE"/>
+		<Key android:codes="-53" android:keyLabel="SEL ALL"/>
+	</Row>
+	
+	<Row android:keyWidth="20%p">
+		<Key android:codes="-36" android:keyIcon="@drawable/arrow_left_word" android:horizontalGap="20%p"/>
+		<Key android:codes="-20" android:keyIcon="@drawable/arrow_up" android:isRepeatable="true" />
+		<Key android:codes="-37" android:keyIcon="@drawable/arrow_right_word"/>
+    </Row>
+    
+	<Row android:keyWidth="20%p">
+		<Key android:codes="-21" android:keyIcon="@drawable/arrow_left" android:isRepeatable="true" android:horizontalGap="12.5%p"/>
+		<Key android:codes="-22" android:keyIcon="@drawable/arrow_down" android:isRepeatable="true" />        
+		<Key android:codes="-23" android:keyIcon="@drawable/arrow_right" android:isRepeatable="true"/>
+		<Key android:codes="-5" android:keyWidth="15%p" android:keyIcon="@drawable/sym_keyboard_backspace" keyDarkBackground="true"/>
+    </Row>
+    
+	<Row android:keyWidth="9%p" android:keyHeight="@dimen/key_height_bottom_row" android:rowEdgeFlags="bottom">
+		<!-- <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done" android:keyWidth="10%p" keyDarkBackground="true"/> -->
+		<Key android:codes="-6" android:keyIcon="@drawable/keyabclabel" android:popupKeyboard="@layout/popup_kbchoices" keyDarkBackground="true"/>
+		<Key android:codes="44" android:keyLabel="," keyDarkBackground="true" />
+		<Key android:codes="32" android:keyWidth="52%p" android:keyIcon="@drawable/sym_keyboard_space" />
+		<Key android:codes="46" android:keyLabel="." keyDarkBackground="true" />
+		<Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" android:keyWidth="18%p" android:popupKeyboard="@layout/popup_smiley" keyDarkBackground="true" />
+	</Row>
+</Keyboard>

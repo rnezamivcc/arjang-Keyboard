@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <string-array name="language">
+       <item>ENGLISH</item><item>FRENCH</item><item>CHINESE</item><item>GERMAN</item><item>RUSSIAN</item><item>DUTCH</item><item>PERSIAN</item> 
+            <item>AFRIKAANS</item> <item>ALBANIAN</item> <item>AMHARIC</item> <item>ARABIC</item>
+			<item>ARMENIAN</item>  <item>AZERBAIJANI</item> <item>BASQUE</item> <item>BELARUSIAN</item>
+			<item>BENGALI</item> <item>BIHARI</item> <item>BULGARIAN</item> <item>BURMESE</item> <item>CATALAN</item> <item>CHEROKEE</item>
+			<item>CHINESE</item> <item>CHINESE_SIMPLIFIED</item> <item>CHINESE_TRADITIONAL</item> <item>CROATIAN</item>
+			<item>CZECH</item> <item>DANISH</item> <item>DHIVEHI</item> <item>DUTCH</item> <item>ENGLISH</item> <item>ESPERANTO</item>
+			<item>ESTONIAN</item> <item>FILIPINO</item> <item>FINNISH</item> <item>FRENCH</item> <item>GALICIAN</item>
+			<item>GEORGIAN</item> <item>GERMAN</item> <item>GREEK</item> <item>GUARANI</item> <item>GUJARATI</item> <item>HEBREW</item>
+			<item>HINDI</item> <item>HUNGARIAN</item> <item>ICELANDIC</item> <item>INDONESIAN</item> <item>INUKTITUT</item>
+			<item>IRISH</item> <item>ITALIAN</item> <item>JAPANESE</item> <item>KANNADA</item> <item>KAZAKH</item> <item>KHMER</item>
+			<item>KOREAN</item> <item>KURDISH</item> <item>KYRGYZ</item> <item>LAOTHIAN</item> <item>LATVIAN</item> <item>LITHUANIAN</item>
+			<item>MACEDONIAN</item> <item>MALAY</item> <item>MALAYALAM</item> <item>MALTESE</item> <item>MARATHI</item>
+			<item>MONGOLIAN</item> <item>NEPALI</item> <item>NORWEGIAN</item> <item>ORIYA</item> <item>PASHTO</item> <item>PERSIAN</item>
+			<item>POLISH</item> <item>PORTUGUESE</item> <item>PUNJABI</item> <item>ROMANIAN</item> <item>RUSSIAN</item>
+			<item>SANSKRIT</item> <item>SERBIAN</item> <item>SINDHI</item> <item>SINHALESE</item> <item>SLOVAK</item>
+			<item>SLOVENIAN</item> <item>SPANISH</item> <item>SWAHILI</item> <item>SWEDISH</item> <item>TAGALOG</item> <item>TAJIK</item>
+			<item>TAMIL</item> <item>TELUGU</item> <item>THAI</item> <item>TIBETAN</item> <item>TURKISH</item> <item>UIGHUR</item>
+			<item>UKRANIAN</item> <item>URDU</item> <item>UZBEK</item> <item>VIETNAMESE</item> <item>WELSH</item> <item>YIDDISH</item> 
+        </string-array>
+  </resources>

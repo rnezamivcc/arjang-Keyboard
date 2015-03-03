@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="com.iknowu.preferences.IKnowUSettings$SettingsFragmentOne"
+        android:title="@string/pref_title_assistance" >
+        <extra android:name="headerKey" android:value="0" />
+    </header>
+
+    <header
+        android:fragment="com.iknowu.preferences.IKnowUSettings$SettingsFragmentOne"
+        android:title="@string/pref_title_feedback" >
+        <extra android:name="headerKey" android:value="1" />
+    </header>
+
+    <header
+        android:fragment="com.iknowu.preferences.IKnowUSettings$SettingsFragmentOne"
+        android:title="@string/pref_title_cloud" >
+        <extra android:name="headerKey" android:value="2" />
+    </header>
+
+    <header
+        android:fragment="com.iknowu.preferences.IKnowUSettings$SettingsFragmentOne"
+        android:title="@string/pref_title_personalize" >
+        <extra android:name="headerKey" android:value="3" />
+    </header>
+
+    <header
+        android:fragment="com.iknowu.preferences.IKnowUSettings$SettingsFragmentOne"
+        android:title="@string/pref_title_legal" >
+        <extra android:name="headerKey" android:value="4" />
+    </header>
+
+</preference-headers>

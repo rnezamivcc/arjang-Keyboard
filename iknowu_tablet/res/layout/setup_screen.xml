@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDDDDDD"
+    android:padding="30dp"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:background="@drawable/setup_border"
+        android:gravity="center"
+        >
+        <!--
+        <com.iknowu.setup.SetupRelativeLayout
+            android:id="@+id/setup_choose_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        -->
+
+        <com.iknowu.setup.SetupRelativeLayout
+            android:id="@+id/setup_uninstall"
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            />
+
+        <com.iknowu.setup.SetupRelativeLayout
+            android:id="@+id/setup_enable_iknowu"
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            />
+
+        <com.iknowu.setup.SetupRelativeLayout
+            android:id="@+id/setup_set_default"
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            />
+
+        <!--
+        <com.iknowu.setup.SetupRelativeLayout
+            android:id="@+id/setup_cloud_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        -->
+
+        <com.iknowu.setup.SetupRelativeLayout
+            android:id="@+id/setup_handedness"
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            />
+    </LinearLayout>
+</LinearLayout>

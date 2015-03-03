@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iknowu="http://schemas.android.com/apk/res/com.iknowu"
+    android:title="@string/pref_title_personalize">
+
+    <!-- <CheckBoxPreference
+        android:key="swipe_enabled"
+        android:title="@string/pref_title_personalize_swipe"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_personalize_swipe_summaryon"
+        android:summaryOff="@string/pref_title_personalize_swipe_summaryoff"
+        /> -->
+
+    <ListPreference
+        android:key="predFontHeight"
+        android:title="@string/pref_title_personalize_predfont"
+        android:defaultValue="medium"
+        android:summary="@string/pref_title_personalize_predfont_summary"
+        android:entries="@array/predFontArray"
+        android:entryValues="@array/predFontValues"
+    />
+
+    <CheckBoxPreference
+        android:key="phrase_predictions"
+        android:title="@string/pref_title_personalize_phrase"
+        android:persistent="true"
+        android:defaultValue="false"
+        android:summaryOn="@string/pref_title_personalize_phrase_summaryon"
+        android:summaryOff="@string/pref_title_personalize_phrase_summaryoff"
+        />
+
+    <com.iknowu.preferences.SeekBarPreference
+        android:key="key_height"
+        android:title="@string/pref_title_personalize_keyheight"
+        android:summary="@string/pref_title_personalize_keyheight_summary"
+        android:dialogMessage="Key Height"
+        android:defaultValue="75"
+        android:max="50"
+        iknowu:min="50"
+    />
+
+    <com.iknowu.preferences.ImageListPreference
+        android:key="keyboard_font_style"
+        android:title="@string/pref_title_personalize_kbfont_style"
+        android:defaultValue="1"
+        android:summary="@string/pref_title_personalize_kbfont_style_summary"
+        android:entries="@array/fontStyleArray"
+        iknowu:entryValuesInts="@array/fontStyleVals"
+        iknowu:entryIcons="@array/fontStyleIcons"
+    />
+
+    <ListPreference
+        android:key="keyboard_layout"
+        android:title="@string/pref_title_personalize_kblayout"
+        android:defaultValue="0"
+        android:summary="@string/pref_title_personalize_kblayout_summary"
+        android:entries="@array/keyboardLayoutArray"
+        android:entryValues="@array/keyboardLayoutVals"
+    />
+
+    <com.iknowu.preferences.ImageListPreference
+        android:key="tabletLayoutListPref"
+        android:title="@string/pref_title_personalize_tabkblayout"
+        android:summary="@string/pref_title_personalize_tabkblayout_summary"
+        android:entries="@array/tabletLayoutArray"
+        iknowu:entryValuesInts="@array/tabletLayoutArrayValues"
+        iknowu:entryIcons="@array/tabletLayoutArrayIcons"
+        />
+
+    <com.iknowu.preferences.SeekBarPreference
+        android:key="long_press_timeout"
+        android:title="@string/pref_title_personalize_longpress"
+        android:summary="@string/pref_title_personalize_longpress_summary"
+        android:dialogMessage="@string/pref_title_personalize_longpress_dialog"
+        android:defaultValue="300"
+        android:text=" ms"
+        android:max="300"
+        iknowu:min="200"
+    />
+
+    <com.iknowu.preferences.SeekBarPreference
+        android:key="delete_word_delay_timeout"
+        android:title="@string/pref_title_personalize_delete_word_delay"
+        android:summary="@string/pref_title_personalize_delete_word_delay_summary"
+        android:dialogMessage="@string/pref_title_personalize_delete_word_delay_dialog"
+        android:defaultValue="300"
+        android:text=" ms"
+        android:max="300"
+        iknowu:min="200"
+    />
+
+    <com.iknowu.preferences.ImageListPreference
+        android:key="themeListPref"
+        android:title="@string/pref_title_personalize_kbtheme"
+        android:summary="@string/pref_title_personalize_kbtheme_summary"
+        android:entries="@array/themeNamesArray"
+        iknowu:entryValuesIds="@array/themeValuesArray"
+        iknowu:entryIcons="@array/themeIconsArray"
+    />
+
+    <CheckBoxPreference
+        android:key="tabs_side"
+        android:title="@string/pref_title_personalize_tab_side"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_personalize_tab_side_summaryon"
+        android:summaryOff="@string/pref_title_personalize_tab_side_summaryoff"
+        />
+
+    <CheckBoxPreference
+        android:key="handedness_right"
+        android:title="@string/pref_title_personalize_handedness"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_personalize_handedness_summaryon"
+        android:summaryOff="@string/pref_title_personalize_handedness_summaryoff"
+    />
+</PreferenceScreen>

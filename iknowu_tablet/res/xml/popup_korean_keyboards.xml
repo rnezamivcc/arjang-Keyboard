@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<popups>
+    <!-- Top Row -->
+    <character value="\u1107"> <!-- ㅂ -->
+        <key value="\u3143" default="true"/>
+        <key value="\u3144" />
+    </character>
+
+    <character value="\u110C"> <!-- ㅈ -->
+        <key value="\u3149" default="true"/>
+    </character>
+
+    <character value="\u1103"> <!-- ㄷ -->
+        <key value="\u3138" default="true"/>
+    </character>
+
+    <character value="\u1100"> <!-- ᄀ -->
+        <key value="\u3132" default="true"/>
+        <key value="\u3133" />
+    </character>
+
+    <character value="\u1109"> <!-- ᄉ -->
+        <key value="\u3146" default="true"/>
+    </character>
+
+    <character value="\u116D"> <!-- ᅭ -->
+    </character>
+
+    <character value="\u1167"> <!-- ᅧ -->
+    </character>
+
+    <character value="\u1163"> <!-- ᅣ -->
+    </character>
+
+    <character value="\u1162"> <!--ᅢ -->
+        <key value="\u3152" default="true"/>
+    </character>
+
+    <character value="\u1166"> <!-- ᅦ -->
+        <key value="\u3156" default="true"/>
+    </character>
+
+    <!-- Middle Row -->
+    <character value="\u1106"> <!-- ᄆ -->
+    </character>
+
+    <character value="\u1102"> <!-- ᄂ -->
+        <!--<key value="\u3135" default="true"/>
+        <key value="\u3136" />-->
+    </character>
+
+    <character value="\u110B"> <!-- ᄋ -->
+    </character>
+
+    <character value="\u1105"> <!-- ᄅ -->
+        <!--<key value="\u313A" default="true"/>
+        <key value="\u313B" />
+        <key value="\u313C" />
+        <key value="\u313D" />
+        <key value="\u313E" />
+        <key value="\u313F" />
+        <key value="\u3140" />-->
+    </character>
+
+    <character value="\u1112"> <!-- ᄒ -->
+    </character>
+
+    <character value="\u1169"> <!-- ᅩ -->
+        <!--<key value="\u3158" default="true"/>
+        <key value="\u3159" />-->
+    </character>
+
+    <character value="\u1165"> <!-- ᅥ -->
+    </character>
+
+    <character value="\u1161"> <!-- ᅡ -->
+        <!--<key value="!" default="true"/>-->
+    </character>
+
+    <character value="\u1175"> <!-- ᅵ -->
+        <!--<key value="\u003f" default="true"/>-->
+    </character>
+
+    <character value="\u110F"> <!-- ᄏ -->
+    </character>
+
+    <character value="\u1110"> <!-- ᄐ -->
+    </character>
+
+    <character value="\u110E"> <!-- ᄎ-->
+    </character>
+
+    <character value="\u1111"> <!-- ᄑ -->
+    </character>
+
+    <character value="\u1172"> <!-- ᅲ -->
+    </character>
+
+    <character value="\u116E"> <!-- ᅮ -->
+        <!--<key value="\u315D" default="true"/>
+        <key value="\u315E" />-->
+    </character>
+
+    <character value="\u1173"> <!-- ᅳ -->
+        <!--<key value="\u3162" />-->
+    </character>
+
+    <character value=".">
+        <key value="!" default="true"/>
+        <key value="\u003f" />
+        <key value=":" />
+        <key value=".kr" />
+        <key value=".com" />
+        <key value=".net" />
+        <key value=".gov" />
+        <key value=".org" />
+    </character>
+
+    <character value=",">
+        <key value=";" default="true"/>
+        <key value="'" />
+        <key value="\u0022" />
+        <key value="\u2018" />
+        <key value="\u201c" />
+        <key value="\u02db" />
+    </character>
+</popups>

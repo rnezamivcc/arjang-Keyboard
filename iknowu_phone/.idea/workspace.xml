@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="iknowu" />
+        <option name="packageNamePattern" value="com.iknowu" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="DEBUG" />
+        <option name="name" value="DEBUG" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="WKLBInfo" />
+        <option name="name" value="WKLB" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="MiniAppContextEngineTag" />
+        <option name="name" value="MiniAppContextEngineTag" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="app: com.iknowu" />
+        <option name="packageNamePattern" value="com.iknowu" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="MyLogs" />
+        <option name="name" value="MyLogs" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="MK SetHistoryFromJNI" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="WKLBInfo - SetHistoryFromJNI" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="name" value="app: com.iknowubeta" />
+        <option name="packageNamePattern" value="com.iknowubeta" />
+      </filter>
+      <filter>
+        <option name="name" value="app: com.iknowureach" />
+        <option name="packageNamePattern" value="com.iknowureach" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <target>android-17</target>
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/analyzer_layout.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/dictionary_arrange_dialog.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/setup_screen.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/startup_view_pager.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/thanks_for_choosing.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tour_popup_screen.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tour_prediction_screen.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tour_quick_change_screen.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tour_reach_screen.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tour_theme_screen.xml">
+        <config>
+          <theme>@android:style/Theme.Black</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="3cba7299-e402-4c8c-a63f-877cd4423959" name="Default" comment="Changed package name to com.iknowureach from com.iknowu. Starting version code to 100 and version name to 1.0.0. Added android:debuggable flag to manifest.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AccessToken.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AccessToken.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AuthorizationClient.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/AuthorizationClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wordlogic/lib/AutoCorrect.java" afterPath="$PROJECT_DIR$/src/com/wordlogic/lib/AutoCorrect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/Facebook.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/Facebook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/FacebookFragment.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/FacebookFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookRequestError.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/FacebookRequestError.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/FbDialog.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/FbDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/FileLruCache.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/FileLruCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/FriendPickerFragment.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/FriendPickerFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/GetTokenClient.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/GetTokenClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/GraphObject.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/GraphObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/GraphObjectAdapter.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/GraphObjectAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/GraphObjectPagingLoader.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/GraphObjectPagingLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iknowu/IKnowUKeyboardService.java" afterPath="$PROJECT_DIR$/src/com/iknowu/IKnowUKeyboardService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ImageDownloader.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ImageDownloader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ImageRequest.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ImageRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ImageResponseCache.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ImageResponseCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/InsightsLogger.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/InsightsLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/JsonUtil.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/model/JsonUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/Logger.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/Logger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/LoginActivity.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/LoginButton.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/LoginButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iknowu/preferences/MyLegalDialoguePreference.java" afterPath="$PROJECT_DIR$/src/com/iknowu/preferences/MyLegalDialoguePreference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/NativeProtocol.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/NativeProtocol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/PickerFragment.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/PickerFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/PlacePickerFragment.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/PlacePickerFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iknowu/PredictionEngine.java" afterPath="$PROJECT_DIR$/src/com/iknowu/PredictionEngine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ProfilePictureView.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/ProfilePictureView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Request.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Request.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/RequestBatch.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/RequestBatch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Response.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Response.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/ServerProtocol.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/ServerProtocol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Session.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Session.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/SessionTracker.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/SessionTracker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Settings.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/Settings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/SharedPreferencesTokenCachingStrategy.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/SharedPreferencesTokenCachingStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/SimpleGraphObjectCursor.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/SimpleGraphObjectCursor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/TestSession.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/TestSession.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/TokenCachingStrategy.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/TokenCachingStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/UrlRedirectCache.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/UrlRedirectCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/UserSettingsFragment.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/UserSettingsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/Util.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/android/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/Utility.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/internal/Utility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/WebDialog.java" afterPath="$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/WebDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/facebook1.iml" afterPath="$PROJECT_DIR$/libraries/facebook/facebook1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iknowu_phone_version.iml" afterPath="$PROJECT_DIR$/iknowu_phone_version.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="dca50e73-0120-4996-93b5-c0f40645722f" name="Rejected commit: Default" comment="Initialize 'added' array in getMiniApps method. &#10;Added code to keep contact mini-app open when cursor moves beyond proper name." />
+    <ignored path="iknowu_miniapp_version.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="iknowu_miniapp_version" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="IKnowUKeyboardService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/iknowu/IKnowUKeyboardService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2835821" vertical-offset="4824" max-vertical-offset="95985">
+              <caret line="447" column="39" selection-start-line="447" selection-start-column="39" selection-end-line="447" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/iknowu/scroll/IKnowUScroller.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/miniapp/MiniAppScrollView.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowubeta/IKnowUKeyboardService.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowubeta/miniapp/IKnowUMiniAppInterface.aidl" />
+        <option value="$PROJECT_DIR$/src/com/iknowubeta/miniapp/IKnowUKeyboardInterface.aidl" />
+        <option value="$PROJECT_DIR$/res/layout/compressed_keyboard_view.xml" />
+        <option value="$PROJECT_DIR$/res/layout/popup_kbchoices.xml" />
+        <option value="$PROJECT_DIR$/res/layout/popup_smiley.xml" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/popup/PopupManager.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/miniapp/MiniAppDrawer.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/popup/PopupKey.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/scroll/SettingsScreen.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/downloader/DownloadActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/downloader/DictionaryItem.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/dictionarymanager/DictionaryManager.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/preferences/IKnowUSettings.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/dictionarymanager/Analyzer.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/setup/SetupRelativeLayout.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/setup/TutorialActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/setup/StartupViewPager.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/voice/VoiceInputLinearLayout.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/setup/SetupActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/IKnowUKeyboard.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/TutorialView.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/InstallReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/IKnowUCompressedView.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/CorrectionSuggestion.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/PredictionSuggestion.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/scroll/KeyboardScreen.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/preferences/ImageListPreference.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/popup/PopupKeyboardView.java" />
+        <option value="$PROJECT_DIR$/res/values/attrs.xml" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/preferences/SeekBarPreference.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/miniapp/MiniAppActionBar.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/Suggestion.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/miniapp/MiniAppManager.java" />
+        <option value="$PROJECT_DIR$/res/xml/theme13.xml" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/util/DimensionConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/SearchListItem.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/SearchList.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/SuggestionsLinearLayout.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/util/Theme.java" />
+        <option value="$PROJECT_DIR$/res/xml/prefs.xml" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/PredictionEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/preferences/MyLegalDialoguePreference.java" />
+        <option value="$PROJECT_DIR$/res/xml/popup_english_keyboards.xml" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/IKnowUKeyboardService.java" />
+        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/src/com/iknowu/IKnowUKeyboardView.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:project:dexedLibs)" />
+      <problem id="library-invalid-classes-path(library:project:libs)" />
+      <problem id="unused-library(library:project:dexedLibs)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowubeta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowubeta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="miniapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iknowu_phone_version" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="293" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="296" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="55" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="298" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="230" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="225" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="231" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/iknowu_phone_version" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="682" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="237" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="230" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="106" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="787" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="project.structure.side.proportion" value="0.23670669" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="3131B736399B00EC" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\svn_root\wl_root\trunk\CurrentDevelopment\AndroidPhone\iknowu_phone_version\res\xml" />
+      <recent name="C:\svn_root\wl_root\trunk\CurrentDevelopment\AndroidPhone\iknowu_phone_version\res\layout" />
+      <recent name="C:\svn_root\wl_root\trunk\CurrentDevelopment\AndroidPhone\iknowu_miniapp_version\res\xml" />
+      <recent name="C:\svn_root\wl_root\trunk\CurrentDevelopment\AndroidPhone\iknowu_miniapp_version\res\layout" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.iknowu" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.iknowu_phone_version">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="iknowu_phone_version" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="iknowu_phone_version" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.iknowu_phone_version" />
+    </list>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value="ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
+    <configuration useDefault="false">C:\Users\Justin\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/.idea" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/libraries/facebook" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/libraries/facebook" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cba7299-e402-4c8c-a63f-877cd4423959" name="Default" comment="" />
+      <created>1368656395388</created>
+      <updated>1368656395388</updated>
+      <workItem from="1368656404078" duration="435000" />
+      <workItem from="1368656860832" duration="1540000" />
+      <workItem from="1368658406097" duration="3000" />
+      <workItem from="1368658419000" duration="117000" />
+      <workItem from="1368658579080" duration="773000" />
+      <workItem from="1368659363371" duration="1631000" />
+      <workItem from="1372802735247" duration="23000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1391806626293</created>
+      <updated>1391806626293</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added android:layout_gravity=&quot;top&quot; to SlidingThumbImageView tag">
+      <created>1396382447120</created>
+      <updated>1396382447120</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initialize 'added' array in getMiniApps method. &#10;Added code to keep contact mini-app open when cursor moves beyond proper name.">
+      <created>1396383839106</created>
+      <updated>1396383839106</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Set phrase prediction initially unchecked in settings. Trim proper nouns before sending to mini-app.">
+      <created>1396463998163</created>
+      <updated>1396463998163</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Moved key click to action up state and long pressed method. Fixed bug with smiley side keyboard not displaying correct characters and turning image green.">
+      <created>1396900003110</created>
+      <updated>1396900003110</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added save/restore paint style and stroke width in drawPathLine method.">
+      <created>1396983319104</created>
+      <updated>1396983319104</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added MessageLogger class to report exceptions.">
+      <created>1396997030174</created>
+      <updated>1396997030174</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modified code to allow Calendar Reach to remain available for any valid terms in last 8 words.">
+      <created>1397086325103</created>
+      <updated>1397086325103</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Reduced vertical gap between keys. Added bottom spacing to key labels.">
+      <created>1397261186256</created>
+      <updated>1397261186256</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Sync the location of mini-app icon on mini-app actionbar with index in internal mini-app list.">
+      <created>1397586299157</created>
+      <updated>1397586299157</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added checks for null in removePreviousMiniApps() method.">
+      <created>1398295810103</created>
+      <updated>1398295810103</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adjusted key sizes, positions and spacing. Added new category for Contact mini-app.">
+      <created>1398886597105</created>
+      <updated>1398886597105</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Set large font as default. Modified font preference labelling.">
+      <created>1399054352104</created>
+      <updated>1399054352104</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixed key popup window for horizontal orientation.">
+      <created>1399064217104</created>
+      <updated>1399064217104</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added code to prevent duplicate words appearing in suggestion view. Code clean-up in same section.">
+      <created>1399312613102</created>
+      <updated>1399312613102</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changed text color for key preview windows.">
+      <created>1399331493102</created>
+      <updated>1399331493102</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Increased widths of popup keys.">
+      <created>1399334501137</created>
+      <updated>1399334501137</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added additional check for length of corrections array when adding correction to first spot in suggestion bar. Removed trim function and replaced with previous substring function.">
+      <created>1399397236136</created>
+      <updated>1399397236136</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added updatePredEngineHistoryLatin() call in stopDeleteEntireWordFromEditor() method.">
+      <created>1399405706105</created>
+      <updated>1399405706105</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added code to set popup key height to keyboard key height.">
+      <created>1399412251103</created>
+      <updated>1399412251103</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Increased height and font size for preview windows.">
+      <created>1399489242114</created>
+      <updated>1399489242114</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added code to prevent overlap of suggestion view when initially displayed.">
+      <created>1399503308103</created>
+      <updated>1399503308103</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Removed any &quot;...&quot; from pred string in pickSuggestionManuallyLatin() method.">
+      <created>1399591748103</created>
+      <updated>1399591748103</updated>
+    </task>
+    <task id="LOCAL-00024" summary="After loading mini-app icons during service connection, added code to call inputService.updateCandidates() to refresh mini-app bar.">
+      <created>1399664673119</created>
+      <updated>1399664673119</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fixed bug where mini-app pages wouldn't scroll for android 2.3.3 devices. Increased font size of key characters upper left corner.">
+      <created>1400021273116</created>
+      <updated>1400021273116</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fixed bug where multiple icons of same mini-app appeared in action bars.">
+      <created>1400024801104</created>
+      <updated>1400024801104</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Set Correction Indication default to false. Decreased size of flash area.">
+      <created>1400187480102</created>
+      <updated>1400187480102</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Changes mini app action bar color. Added indicator arrow for selected mini app.">
+      <created>1400612711103</created>
+      <updated>1400612711103</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Changed package name to com.iknowureach from com.iknowu. Starting version code to 100 and version name to 1.0.0. Added android:debuggable flag to manifest.">
+      <created>1400691441103</created>
+      <updated>1400691441103</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Changed default theme to 'Zorin'. Fixed key height preference to range 50 - 100 with default 75. Change action mini bar color to blue.">
+      <created>1400703716103</created>
+      <updated>1400703716103</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Centered label text on return key. Reduced spacing between phrase prediction and suggestion bar.">
+      <created>1400713770102</created>
+      <updated>1400713770102</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated version code and name.">
+      <created>1400714170102</created>
+      <updated>1400714170102</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated version code to 103 and name to 1.0.3.">
+      <created>1400793874104</created>
+      <updated>1400793874104</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Updated version code and name.">
+      <created>1401216357235</created>
+      <updated>1401216357235</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Merged green/blue highlight colour to green and lightened green colour.">
+      <created>1401470982104</created>
+      <updated>1401470982104</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Updated version code to 105 and name to 1.0.5.">
+      <created>1402080068104</created>
+      <updated>1402080068104</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added SMS observer.">
+      <created>1402519267104</created>
+      <updated>1402519267104</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add check for normal text input type in StartInputView method.">
+      <created>1402600980104</created>
+      <updated>1402600980104</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Adjusted spacing between predictions and phrase predictions.">
+      <created>1402685963103</created>
+      <updated>1402685963103</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Updated version code to 106 and name to 1.0.6.">
+      <created>1402702122103</created>
+      <updated>1402702122103</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added instance check in onServiceConnected() method. Fix spacing and layout problems when space bar long pressed.">
+      <created>1402947506102</created>
+      <updated>1402947506102</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Increased delay interval for deleting words by backspacing.">
+      <created>1403201960113</created>
+      <updated>1403201960113</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Added settings preference to set word delete timeout.">
+      <created>1403213722159</created>
+      <updated>1403213722159</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Updated version code to 107 and name to 1.0.7.">
+      <created>1403539931118</created>
+      <updated>1403539931118</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Modified the background colour of the 123 and ABC keys to make them stand out. Updated version code to 109 and version number name to 1.0.9.">
+      <created>1403567702105</created>
+      <updated>1403567702105</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Updated version code to 110 and name to 1.1.0.">
+      <created>1403802041104</created>
+      <updated>1403802041104</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Fixed text size for popup text.">
+      <created>1403810454103</created>
+      <updated>1403810454103</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Updated version code to 111 and name to 1.1.1.">
+      <created>1403811870105</created>
+      <updated>1403811870105</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4568000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="995" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4414107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3677639" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48394242" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2934662" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1905016" sideWeight="0.12886049" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22037652" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1905016" sideWeight="0.12886049" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26734927" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17929563" sideWeight="0.47077578" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28647497" sideWeight="0.47077578" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33997786" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3606371" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23366556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2934662" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33001107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1905016" sideWeight="0.12886049" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29872206" sideWeight="0.47077578" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3433001" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3677639" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37984496" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48394242" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1905016" sideWeight="0.12886049" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34108528" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2934662" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17929563" sideWeight="0.47077578" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
+    <MESSAGE value="Removed any &quot;...&quot; from pred string in pickSuggestionManuallyLatin() method." />
+    <MESSAGE value="After loading mini-app icons during service connection, added code to call inputService.updateCandidates() to refresh mini-app bar." />
+    <MESSAGE value="Fixed bug where mini-app pages wouldn't scroll for android 2.3.3 devices. Increased font size of key characters upper left corner." />
+    <MESSAGE value="Fixed bug where multiple icons of same mini-app appeared in action bars." />
+    <MESSAGE value="Set Correction Indication default to false. Decreased size of flash area." />
+    <MESSAGE value="Changes mini app action bar color. Added indicator arrow for selected mini app." />
+    <MESSAGE value="Changed package name to com.iknowureach from com.iknowu. Starting version code to 100 and version name to 1.0.0. Added android:debuggable flag to manifest." />
+    <MESSAGE value="Changed default theme to 'Zorin'. Fixed key height preference to range 50 - 100 with default 75. Change action mini bar color to blue." />
+    <MESSAGE value="Centered label text on return key. Reduced spacing between phrase prediction and suggestion bar." />
+    <MESSAGE value="Updated version code to 103 and name to 1.0.3." />
+    <MESSAGE value="Updated version code and name." />
+    <MESSAGE value="Merged green/blue highlight colour to green and lightened green colour." />
+    <MESSAGE value="Updated version code to 105 and name to 1.0.5." />
+    <MESSAGE value="Added SMS observer." />
+    <MESSAGE value="Add check for normal text input type in StartInputView method." />
+    <MESSAGE value="Adjusted spacing between predictions and phrase predictions." />
+    <MESSAGE value="Updated version code to 106 and name to 1.0.6." />
+    <MESSAGE value="Added instance check in onServiceConnected() method. Fix spacing and layout problems when space bar long pressed." />
+    <MESSAGE value="Increased delay interval for deleting words by backspacing." />
+    <MESSAGE value="Added settings preference to set word delete timeout." />
+    <MESSAGE value="Updated version code to 107 and name to 1.0.7." />
+    <MESSAGE value="Modified the background colour of the 123 and ABC keys to make them stand out. Updated version code to 109 and version number name to 1.0.9." />
+    <MESSAGE value="Updated version code to 110 and name to 1.1.0." />
+    <MESSAGE value="Fixed text size for popup text." />
+    <MESSAGE value="Updated version code to 111 and name to 1.1.1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated version code to 111 and name to 1.1.1." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/layout/keyboard_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.29254302" vertical-offset="153" max-vertical-offset="697">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/theme1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11630559" vertical-offset="0" max-vertical-offset="877">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/util/MessageLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56071967" vertical-offset="204" max-vertical-offset="952">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/IKnowUKeyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29746836" vertical-offset="10029" max-vertical-offset="23052">
+          <caret line="629" column="15" selection-start-line="629" selection-start-column="15" selection-end-line="629" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/scroll/IKnowUScroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42170542" vertical-offset="3009" max-vertical-offset="5542">
+          <caret line="201" column="44" selection-start-line="201" selection-start-column="30" selection-end-line="201" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/util/DimensionConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9311424" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="35" column="38" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/miniapp/IKnowUMiniAppInterface.aidl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/miniapp/IKnowUKeyboardInterface.aidl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/miniapp/MiniAppMessageReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.47803164" vertical-offset="663" max-vertical-offset="2550">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/iknowu/miniapp/IKnowUMiniAppInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33272058" vertical-offset="91" max-vertical-offset="3740">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/iknowu/miniapp/IKnowUKeyboardInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4335">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/downloader/DownloadActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.512012" vertical-offset="798" max-vertical-offset="14025">
+          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/SearchList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4448598" vertical-offset="4029" max-vertical-offset="14008">
+          <caret line="251" column="28" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/SearchListItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60611856" vertical-offset="2658" max-vertical-offset="5253">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/miniapp/MiniAppActionBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9856" vertical-offset="3192" max-vertical-offset="4760">
+          <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/scroll/KeyboardScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17672414" vertical-offset="1713" max-vertical-offset="3519">
+          <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/dictionarymanager/Analyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.331565" vertical-offset="1337" max-vertical-offset="9690">
+          <caret line="86" column="34" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/CorrectionSuggestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48558423" vertical-offset="4202" max-vertical-offset="5389">
+          <caret line="278" column="48" selection-start-line="278" selection-start-column="48" selection-end-line="278" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/PredictionSuggestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33188722" vertical-offset="4267" max-vertical-offset="5219">
+          <caret line="272" column="41" selection-start-line="272" selection-start-column="41" selection-end-line="272" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/SuggestionsLinearLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7030075" vertical-offset="11934" max-vertical-offset="16354">
+          <caret line="744" column="66" selection-start-line="744" selection-start-column="66" selection-end-line="744" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8915929" vertical-offset="923" max-vertical-offset="4199">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wordlogic/lib/AutoCorrectInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7071057" vertical-offset="0" max-vertical-offset="663">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/PredictionEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.918288" vertical-offset="1173" max-vertical-offset="7531">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/dictionarymanager/DictionaryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45083487" vertical-offset="3174" max-vertical-offset="4046">
+          <caret line="243" column="39" selection-start-line="243" selection-start-column="39" selection-end-line="243" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/IKnowUCompressedView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1873" max-vertical-offset="17935">
+          <caret line="149" column="33" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/kbenglish.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1098361" vertical-offset="122" max-vertical-offset="1037">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/kbsymbols_shift.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.25081968" vertical-offset="153" max-vertical-offset="986">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/kbsymbols.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5852459" vertical-offset="357" max-vertical-offset="1020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/util/Theme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32905295" vertical-offset="1257" max-vertical-offset="2346">
+          <caret line="93" column="52" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/theme13.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62541807" vertical-offset="0" max-vertical-offset="714">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wordlogic/lib/AutoCorrect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/miniapp/MiniAppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71973467" vertical-offset="4717" max-vertical-offset="6970">
+          <caret line="333" column="33" selection-start-line="333" selection-start-column="33" selection-end-line="333" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/prefs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7048093" vertical-offset="3978" max-vertical-offset="4760">
+          <caret line="209" column="43" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/popup_english_keyboards.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.504" vertical-offset="331" max-vertical-offset="8347">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/util/MiniAppContextEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18644068" vertical-offset="26" max-vertical-offset="5525">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/preferences/MyLegalDialoguePreference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42969984" vertical-offset="0" max-vertical-offset="918">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/preview/PreviewTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060390763" vertical-offset="0" max-vertical-offset="1887">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-land/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ru/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3349">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-sw600dp/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-xlarge/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5030426" vertical-offset="109" max-vertical-offset="986">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2397">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/IKnowUKeyboardView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33270678" vertical-offset="3206" max-vertical-offset="48382">
+          <caret line="199" column="26" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/TutorialView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="2411" max-vertical-offset="4828">
+          <caret line="153" column="35" selection-start-line="153" selection-start-column="35" selection-end-line="153" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5620609" vertical-offset="0" max-vertical-offset="427">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/facebook/src/com/facebook/widget/FacebookFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31809145" vertical-offset="140" max-vertical-offset="4530">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-16/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33279222" vertical-offset="1385" max-vertical-offset="5925">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iknowu/IKnowUKeyboardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2835821" vertical-offset="4824" max-vertical-offset="95985">
+          <caret line="447" column="39" selection-start-line="447" selection-start-column="39" selection-end-line="447" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>iknowu_phone_version</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23670669" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (iknowu_phone_version)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23670669" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23670669" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 3 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23670669" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>iknowu_phone_version</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23670669" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>libs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23670669" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

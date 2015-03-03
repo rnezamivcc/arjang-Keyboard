@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dip"
+    android:paddingTop="8dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    >
+    	<ImageView
+    		android:id="@+id/img_list_pref_image_view"
+			android:layout_width="40dip" 
+			android:layout_height="40dip"
+			android:gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+			android:layout_marginRight="6dip" />
+    	
+		<TextView
+			android:id="@+id/img_list_pref_text_view"
+			android:textSize="18sp"
+			android:gravity="center_vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_list_pref_image_view"
+            android:textColor="#FF000000"
+			/>
+
+		<com.iknowu.preferences.ImageListRadioButton
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:checked="false"
+			android:id="@+id/img_list_pref_radio_button"/>
+
+</RelativeLayout>

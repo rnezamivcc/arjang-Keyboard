@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- neon green theme -->
+<theme>
+	<item name="keyColor" value="0xFF00CC00"></item>
+	<item name="keyPressedColor" value="0xFF000000"></item>
+	<item name="keyDarkColor" value="0xFF004400"></item>
+	<item name="backgroundColor" value="0xFF000000"></item>
+	<item name="upperIconColor" value="0xFF00CC00"></item>
+	<item name="keyColorMoreThan5" value="0xFF007399"></item>
+	<item name="keyColorLessThan5" value="0xFF009926"></item>
+    <item name="compressedColorMoreThan5" value="0xFF00A3C9"></item>
+    <item name="compressedColorLessThan5" value="0xFF00A3C9"></item>
+	<item name="keyTextColor" value="0xFFadff2f"></item>
+	<item name="style" value="1"></item>
+	<item name="stroke" value="1"></item>
+	<item name="keyShadowColor" value="0xDD000000"></item>
+	<item name="candidateBackground" value="0xFF000000"></item>
+	<item name="candidateTextColor" value="0xFFadff2f"></item>
+	<item name="highestPriorityColor" value="0xFFddff2f"></item>
+	<item name="candidateSelectedColor" value="0xFF00CC00"></item>
+	<item name="candidateAddWordColor" value="0xFF228b22"></item>
+	<item name="candidateDeleteWordColor" value="0xFFb22222"></item>
+	<item name="useGradient" value="true"></item>
+	<item name="gradientDirection" value="1"></item>
+	<item name="cornerRadiusX" value="5"></item>
+	<item name="cornerRadiusY" value="15"></item>
+	<item name="searchItemColor" value="0xFF00CC00"></item>
+	<item name="searchItemPressedColor" value="0xFF000000"></item>
+	<item name="searchBackColor" value="0xFF004400"></item>
+	<item name="searchItemTextColor" value="0xFFadff2f"></item>
+	<item name="previewBackgroundColor" value="0xFFFFFFFF"></item>
+	<item name="previewTextColor" value="0xFF004400"></item>
+	<item name="previewBorderColor" value="0xFFFFFF00"></item>
+    <item name="sideBackgroundColor" value="0xFF333333"/>
+</theme>

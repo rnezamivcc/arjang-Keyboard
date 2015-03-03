@@ -1,0 +1,546 @@
+Notes for everything related to the Android iKnowU keyboard app:
+
+======================================================================
+Contents
+======================================================================
+
+1. Passwords
+2. Project Folders
+3. Paid/Free Versions
+4. Important Keyboard Files
+5. Reach/Miniapps
+6. Dictionaries
+7. Themes/Keyboards
+8. Issues & Ideas
+
+======================================================================
+1. Passwords
+======================================================================
+
+desktop			= 123456
+parse username		= jdesjardins@wordlogic.com
+parse password		= w0rdl0gic
+dropbox username	= languages@wordlogic.com
+dropbox password	= not sure, though the dropbox account is accesible via a folder on the computer (named Dropbox)
+
+======================================================================
+2. Project folders
+======================================================================
+
+Located at: C:\svn_root\wl_root\trunk\CurrentDevelopment\AndroidPhone
+** = important folders
+
+browser_history			= Browser history Reach mini-app project folder
+calculator_miniapp		= Calculator Reach mini-app project folder
+Current_Version			= Obsolete (not used anymore, could be used again to keep track of the current released version)
+GrouponReach			= Groupon Reach mini-app project folder
+iknowu_calendar_miniapp		= Calendar Reach mini-app project folder
+iknowu_autocorrect_only		= Obsolete (not used anymore)
+iknowu_contacts_miniapp		= Contact viewer Reach mini-app project folder
+iknowu_conversion_miniapp	= Dimension conversion Reach mini-app project folder
+iknowu_miniapp_version		= Obsolete (not used anymore)
+**iknowu_phone_version**	= Project folder the phone version of the keyboard, all new development done here
+**iknowu_tablet_version**	= Project folder the tablet version of the keyboard, all new development done here
+iknowu_wordnik			= Old version with test functionality for using gesturing to access the web
+iKnowUInstaller			= Project folder for installing the keyboard apk, along with the contact mini-app apk
+image_mini_app			= Image viewer Reach mini-app project folder
+LocationMiniApp			= Location/Search Reach mini-app project folder
+NewAutoCorrect			= Not sure, not used anymore
+TranslateMiniapp		= Translator Reach mini-app project folder
+WebPageReader			= Project folder, used to read a korean web page into a file. Modified to read the file and create a Korena word list
+**WordLogic**			= Project folder for the released phone version, used to merge phone code into, then compiled from Mark's machine
+**WordLogic_Tablet_Release**	= Project folder for the released tablet version, used to merge tablet code into, then compiled from Mark's machine
+WordsGame			= Project folder for a very unfinished typing game
+YellowPagesReachProject		= Yellow Pages Reach mini-app project folder
+
+
+======================================================================
+3. Paid/Free versions
+======================================================================
+
+To interchange apk's between the paid and free versions, the project package name has to be changed accordingly
+
+Version:		Package Name:
+
+Phone Free	=	com.iknowu
+Phone Paid	=	com.iknowu.paid
+Tablet Free	=	com.iknowu.tabletfree
+Tablet Paid	=	com.iknowu.tabletpaid
+
+To do this, open up the "androidmanifest.xml" file and at the top in the "manifest" tag refactor the "package" attribute.
+DO NOT change the actual package name where the source files are located! This is not needed.
+
+Note: This can be hit and miss in Android studio, quite often this will not change everything properly and
+you will have to manually go through files and change package imports accordingly. 
+(Notably the import com.iknowu.R statement)
+
+	Strings you WANT to change:
+
+	File:				String:
+	
+	popup_kbchoices.xml		xmlns:iknowu="http://schemas.android.com/apk/res/com.iknowu"
+	popup_smiley.xml		xmlns:iknowu="http://schemas.android.com/apk/res/com.iknowu"
+	prefs.xml/prefs_4.xml		xmlns:iknowu="http://schemas.android.com/apk/res/com.iknowu"
+
+	Strings you DO NOT want to change
+
+	File:				String:
+
+	SetupActivity.java		private static final String PHONE_TRIAL_PACKAGE = "com.iknowu";
+	SetupActivity.java		private static final String TABLET_TRIAL_PACKAGE = "com.iknowu.tabletfree";
+	SetupActivity.java		private static final String INPUT_NAME = "/com.iknowu.IKnowUKeyboardService";
+	SetupActivity.java		private static final String PACKAGE_NAME = "com.iknowu.IKnowUKeyboardService";
+
+--------------------
+Expiration Handling:
+--------------------
+
+To enable the expiration check you need to:
+
+- look in IKnowUKeyboardService.java
+- find the function onStartInputView()
+- make sure these lines are uncommented
+
+	this.getexpirationStatus();
+	if (!this.mTrialExpired && this.isExpirationTimerExpired() ) {
+		this.isExpired();
+	} else if (this.mTrialExpired) {
+		this.showTrialExpiredDialog();
+	}
+
+- and make sure this line is commented
+
+	this.mTrialExpired = false;
+
+To DISABLE, do the reverse.
+
+
+======================================================================
+4. Important Keyboard Files
+======================================================================
+	--------------------------
+	IKnowUKeyboardService.java
+	--------------------------
+	This is the most important file in regards to the Android code. It is a subclass of InputMethodService from the
+	Android APIs.
+
+	**Important Functions**
+	
+	onCreate()		- used to initialize the engines and other important variables
+	onStartInput()		- part of the InputMethod call stack in Android, gets called when the keyboard is about to be displayed
+	onStartInputView()	- another part of the Android call stack, gets called EVERY time the keyboard gets displayed. Even if jsut switching to a different input box
+	loadSettings()		- loads the SharedPreferences to get any user defined preferences before keyboard display (ie. themes, vibration, sound etc.)
+	infalteKeyboardLayout()	- used to load the actual keyhboard layouts
+	
+	handleCharacter()	- every time a character key gets pressed this function gets called
+	handleWordSeparator()	- every time a puntuation or word separator gets pressed
+	handleBackSpace()	- every time backspace gets pressed
+
+	**Important Variables**
+	
+	//!!!!!!!!!!!!!!!!!!!!!! Set this flag to true to enable logs !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	public static final boolean DEBUG = true;
+
+    	//!!!!!!!!!!!!!!!!!!!!!! Set this flag to true to enable reach !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    	public static final boolean MINIAPP_ON = true;
+
+    	//!!!!!!!!!!!!!!!!!!!!!! Set this flag to true to enable phrase prediction !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    	public static final boolean PHRASE_PREDICITON_ON = true;
+
+	----------------------
+	IKnowUKeyboarView.java
+	----------------------
+	This is responsible for displaying the keyboard. It handles all touch events and does all drawing for
+	the keyboard.
+
+	**Important Functions**
+	
+	onTouchEvent()		- Handles all touch event passed to the keyboard, determines which key is pressed
+	onDraw()		- Responsible for drawing the keys and everything else that can be shown on the keyboard
+
+	The Handler located at the top of the class is responsible for implementing all longpresses on the View.
+	Examining the code in onTouchEvent will reveal how this works.
+
+	**SWIPING**
+	Swiping is an unfinished part of this class. If you look at the function tryAddPoint()
+	you'll see that this is where the decisions are made to add a new point to be drawn as
+	a part of the line for the swipe implementation. It also chooses a key to pass on to the
+	engine if applicable.
+
+	To finish:
+	- instead of adding the picked character to the input box right away, send to the engine first.
+	- the engine will then spit back a word that it thinks you have typed so far, which you would then
+	  send to the text
+
+	----------------------------
+	SuggestionsLinearLayout.java
+	----------------------------
+	
+	This is responsible for showing all the predictions and corrections that are retrieved from the
+	engines.
+
+	**Important Functions**
+	
+	addPredictionSuggestion()	- add a prediction to the suggestion bar
+	addCorrectionSuggestion()	- add a correction to the suggestion bar
+	addPhraseSuggestion()		- add a phrase to the suggestion bar
+
+	-------------------
+	IKnowUKeyboard.java
+	-------------------
+	
+	This class holds all information pertaining to a keyboard that it has loaded from XML
+
+	**Important Functions**
+	loadKeyboard()		- a very complicated function that loads a keyboard xml file and interprets the data. Used by IKnowUKeyboardView.java to display a keyboard.
+
+	---------------------
+	PredictionEngine.java
+	---------------------
+	
+	The class responsible for interaction the with the libpredinterface.so file. It contains all the
+	native functions required to interact over the JNI.
+
+======================================================================
+5. Reach/MiniApps
+======================================================================
+
+The miniapps are a fairly complicated thing to understand so I'll try to explain as best I can.
+
+The miniapps are built using AIDL (Android Interface Definition Language). This is used to allow inter-process
+communication between the keyboard and the miniapps themselves. Since the miniapps are to be installed as a
+separate app, this is what was needed.
+
+To create this interface we need two files to be placed in the package "com.iknowu.miniapp"
+	
+	IKnowUKeyboardInterface.aidl		- to be used by the miniapps to call functions on the keyboard
+	IKnowUMiniAppInterface.aidl		- to be used by the keyboard to call functions on the miniapps
+
+These files HAVE TO BE PLACED IN "com.iknowu.miniapp" on both the keyboard side and the miniapp side.
+
+The compiler will then generate java files for us using these predefined files.
+
+-------------------
+New Functions
+-------------------
+To add new functions to the interface just copy and paste an existing function.
+Doing so will require you to implement the new function on both sides via the "Stub" 
+that both sides must make reference to.		
+
+You only need to add a new function to the interface when you need a new way to communicate between the keyboard
+and miniapps.
+
+KEEP IN MIND:
+If there are existing miniapps out there, you will need to provide them with the new AIDL files if you change them.
+Adding new functions won't affect existing apps, but taking away functions will cause CRASHES!
+
+
+------------------------
+Important Functions
+------------------------
+
+getView()		- called by the keyboard when the user clicks on a mini-app's icon, must return a RemoteViews object
+onFinishConnection()	- called by the keyboard when it will be closing the mini-app, always gets called right before closing.
+
+sendText()		- called by the mini-app to send a body of text to the keyboard, can be called whenever necessary
+updateView()		- called by a mini-app when it needs to update the content being displayed. Can be use to completely change the layout
+			  or simply show something as being selected.
+
+
+The best way to build a mini-app is to look at the existing ones to see what is happening and how they are
+happening. I would say the most solid one to look at would be the contact one or the location one.
+
+IMPORTANT NOTE:
+
+RemoteViews objects are a means to transfer a set of instructions between two Android processes on how to display a set of views.
+The RemoteViews class only supports a limited subset of Android views, this is important to keep in mind when created a Reach mini-app.
+Every time you want to change something on the display, you need to change it in your RemoteViews object and then pass the RemoteViews
+object back to the Keyboard.
+
+---------------------------
+KEYBOARD SIDE
+---------------------------
+
+On the keyboard side of the reach system, there a few things to take into consideration.
+
+MiniAppManager.java
+	- responsible for managing the mini-apps currently installed on a device
+	- will detect apps when they are installed, as well as when the keyboard starts up
+	- when given a category(ies) and a set of data, the manager will determine which mini-app icons to show to the user
+	- as well as which mini-app icons need to be hidden
+	- responsible for starting a mini-app up as well as closing a mini-app down.
+
+MiniAppContextchecker.java
+	- this class analyzes the text being entered and determines the current category(ies) of mini-apps that need to be displayed.
+	- currently only analyzes the immediate text, should be put into it's own thread so it can look at the whole body of text and
+	  make better assumptions about the categories to show
+
+MiniAppMessageReceiver.java
+	- this class will grab any messages received from a mini-app and pass them on to the keyboard
+
+MiniAppScreen.java
+	- responsible for displaying the mini-apps and icons
+
+
+======================================================================
+6. Dictionaries
+======================================================================
+
+To enable dictionaries for download from Dropbox you need to first package the file(s) into a ".zip" format.
+So if your had "english.dict" and "english.aac" they would both need to be placed in a ".zip" file.
+
+DO NOT put them in a folder and then zip the folder!!!
+
+If you only have one file, aka there is no auto-correct dictionary, then you still need to zip the ".dict" file.
+
+Once you have a ".zip" file you need to then place it into the Dropbox "dictionaries" folder.
+
+I have been naming the zip files according to the version that they are. Version only changes when the dictionary structure
+changes in a way that would cause a crash in the engine.
+
+To make the new dictionary discoverable:
+
+- open the "dictionaries" directory on Dropbox
+- open the "dictionary_info.xml" file
+- create a new dictionary entry under the correct version of the library
+
+--------------------------
+dictionary_info.xml
+--------------------------
+
+Looking at the dictionary_info file you'll see a number of attributes that need to be filled out
+
+Here is a break-down:
+
+	TAG				ATTRIBUTE
+	----------------------------------------------
+	library				version = the version of the library, right now just abitrarily assigned by me when there is a change in the library dictionary structure
+						  this number must match the number in the "strings.xml" file located in the project
+
+	dictionary			index = the language ID of the dictionary, these values are assigned by an ENUM in the library code.
+						This value has to match the corresponding value in the library
+
+					versionCode = not used anymore, could be used again in the future for something
+
+					layout = the corresponding keyboard layout that goes with this language (most will have "0" for QWERTY)
+						 This needs to match a value in the "attrs.xml" in the Android project folder under the heading "keyboardLayoutArray"
+
+					filename = this is the download link for the file located on Dropbox, see below for an explanation on how to retrieve this.
+
+					name = the displayed name that users will see when the dictionaries get listed for them.
+
+					localFileName = the name to be used for saving the file to the local disk, DO NOT put an extension here, the Android code will do it automatically
+
+					hasAutoCorrect = a flag to indicate whether or not this dictionary has an autoCorrect dictionary
+
+					maxPriority = an integer indicating the maximum spot in the dictionary priority list that this dictionary can take
+						      ie. the medical dictionary should never be in the first position so it's max priority would be 2
+
+					testMode = when set to true, this dictionary will only be seen by devices running with the DEBUG flag set to true on the Android side
+
+The code related to downloading the dictionaries is located in the "DownloadActivity.java" class.
+
+-----------------------
+DROPBOX FILE LINKS
+-----------------------
+
+To get the download link for a dictionary ZIP file:
+
+- navigate to the Dropbox/dictionaries/ directory on the workstation
+- right click and select "View on Dropbox.com"
+- in the browser, right click on the appropriate dictionary ZIP file
+- select "share link"
+- on the next page, right-click on the DOWNLOAD button
+- select INSPECT ELEMENT
+- in the console that pops open, copy the link. It will ook like one of the ones already in the file.
+- when copying the link you don't need the "token_hash" part, you can just cut it off at "dl=1"
+
+
+======================================================================
+7. Themes/Keyboards
+======================================================================
+
+-----------------
+THEMES
+-----------------
+
+Themes for the keyboard are all created via an XML file.
+These XML files are placed in the /res/xml/ directory in the Android project folder
+
+To add a new theme to the project you have to:
+
+1. Create a new XML file (Just copy and paste an old one, then change the attributes)
+2. Put the file in the /res/xml directory of the project
+3. Open the "attrs.xml" file from the /res/values/ directory in the project
+4. Create a new entry in the "themeNamesArray"
+5. Create a new entry in the "themeValuesArray" (should look like "@xml/yourThemeName")
+6. Create a new entry in the "themeIconsArray" (should look like "@drawable/yourIconName")
+
+Theme Icons are just cropped from a screenshot of the app. The cropped images are all of the letter "Q"
+and are 47x69 px or 46x69 px in size depending on the theme.
+
+Theme XML file breakdown:
+
+ATTRIBUTE				DESCRIPTION
+------------------------------------------------------------
+
+keyColor				= the color of the keys (these are keys that don't have the darkBackground flag set in the keyboard file)
+keyPressedColor				= the color of the keys when they are in the pressed state
+keyDarkColor				= the color of a key that has been flagged as a dark key
+backgroundColor				= the background color of the keyboard
+upperIconColor				= the color of the upper small icon located on each key
+keyColorMoreThan5			= the color of a key when highlighted as having more than 5 following letters
+keyColorLessThan5			= the color of a key when highlighted as having less than 5 following letters
+compressedColorMoreThan5		= on the compressed keyboard -> the color of a key when highlighted as having more than 5 following letters
+compressedColorLessThan5		= on the compressed keyboard -> the color of a key when highlighted as having less than 5 following letters
+keyTextColor				= the color of the text on the keys
+style					= one of three numerical values:
+					  "REGULAR" = 0 -> just regular filled in keys
+					  "OUTLINE" = 1 -> only the outline of a key gets filled, though if given a shadow color, the shadow will show through
+					  "LINES BETWEEN" = 2 -> this will draw a line to the right and bottom to give a sort of flat look to the keys (look at the "Black and White" theme for an example)
+stroke					= the stroke width for the keys, only applies to the OUTLINE and LINES BETWEEN styles
+keyShadowColor				= the color of the shadow of the keys (can be complete transparent to have no shadow)
+candidateBackground			= the color of the background of the Prediction bar
+highestPriorityColor			= the color of the most likely prediction in the bar (the one in the center)
+
+Right now these aren't used as the prediction bar items now mimic the keyboard keys and therefore use those colors
+------------------------------------------------------------------------------------------------------------------
+candidateTextColor			= the color of the text in the prediction bar
+candidateSelectedColor			= the color of a prediction when it is being pressed
+candidateAddWordColor			= the color of a word in the prediction bar when it can be added
+candidateDeleteWordColor		= the color of a word in the prediction bar when it can be deleted
+------------------------------------------------------------------------------------------------------------------
+
+useGradient				= true if you want the keys to have a gradient, false if not
+					  gradient is a mix of the keyColor and the keyPressedColor
+gradientDirection			= One of three choices:
+					  0 -> DIAGONAL = from top-left, to bottom-right
+					  1 -> VERTICAL = Top to bottom
+					  2 -> HORIZONTAL = Left to right
+cornerRadiusX				= how round the corners of the keys should be on the x-axis
+cornerRadiusY				= how round the corners of the keys should be on the y-axis
+searchItemColor				= the color of the items in the SearchList (aka gesturing)
+searchItemPressedColor			= the color of the items in the SearchList when they are pressed
+searchBackColor				= the color of the back button in the SearchList
+searchItemTextColor			= the color of the text on each SearchListItem
+previewBackgroundColor			= the background color of the preview popup when a key is pressed
+previewTextColor			= the color of the text in the preview popup
+previewBorderColor			= the color of the border of the preview popup
+
+The theme that is currently selected by the user will get loaded in the loadSettings() function
+located in IKnowUKeyboardService.java. This function passes the selected XML file to the Theme.java
+class, which parses the file and sets a number of static variables which can then be accessed at any
+time by any class via static references.
+
+
+----------------------
+Keyboards
+----------------------
+
+Keyboard layout are also all created via an XML file.
+And they are also all placed in the /res/xml/ directory.
+
+<Keyboard
+	keyHeight	= the height of the keys
+	keyWidth	= the width of the keys
+	horizontalGap	= NOT GENERALLY RECOMMENED -> The gap between keys on the left and right. Should be in the form of "N%p" where N is any decimal value
+	verticalGap	= NOT GENERALLY RECOMMENDED -> The gap between keys on the top and bottom. Should be in the form of "N%p" where N is any decimal value
+>
+
+<Row
+	keyWidth	= the width of the keys in this row, overrides the Keyboard tag keyWidth attribute
+	keyHeight	= the height of the keys in this row, overrides the Keyboard tag keyHeight attribute
+>
+
+<Key
+	codes			= the DECIMAL value codes for the character(s) on this key. For MULTI-CHARACTERS, separate values with a comma (ie. codes="113,119,101")
+	keyLabel		= the String value of the character(s) on this key, for display purposes.
+	keyIcon			= the DRAWABLE to use as an icon on this key
+	keyEdgeFlags		= used to tell if this key is at the edge of a row, not currently used in our implementation
+	isCharKey		= flag to tell is this key is a character that could be entered inot text. Originally used for the swiping algorithm, now NOT used.
+	horizontalGap		= the gap to the left of the key, expressed as a percentage of the total width of the keyboard
+	isSticky		= whether or not this key can be toggled
+	isModifier		=  whether or not this key is a modifier (ie. shift or alt)
+	keyDarkBackground	= whether or not this key should have a dark background
+	popupKeyboard		= the RESOURCE id of any popup keyboard related to this key. ONLY NEEDED for popup keyboards that have been defined via a /layout/ xml file. (ie. popup_kbchoices.xml, popup_smileys.xml)
+>
+
+These files get loaded into the IKnowUKeyboard.java class via the loadKeyboard() function.
+Every time the keyboard layout gets changed, a new XML file gets loaded.
+
+As well the corresponding popup XML file will get loaded (if any) for the new keyboard layout.
+
+If you change the keyboard layout from the code somewhere, you need to set a couple flags into the preferences to let the rest of the app know
+that the layout has changed as well as what it's changed to.
+
+//When true the app knows that the keyboard layout has been changed
+public static final String PREF_KB_LAYOUT_CHANGED = "kb_layout_changed";
+
+//The actual layout that is now set as the default when the keyboard opens
+public static final String PREF_KEYBOARD_LAYOUT = "keyboard_layout";
+
+======================================================================
+8. Issues & Ideas
+======================================================================
+
+--------------
+Issues
+--------------
+
+Incomplete swiping functionality 
+	- needs to be hooked into the engine so that words can be determined and
+	  put into the body of text.
+
+Bulk Loader from SMS and Facebook etc.
+	- needs to get engine side working for this.
+	- to re-enable this on the keyboard side, look at the anayler.xml and Analyzer.java files.
+	- there is abunch of stuff in both of those files that is commented out right now that should be commented back in
+
+Overall Look and feel
+	- while the keyboard itself is fairly solid on the look and feel, the menus and other activities coudl use an overhaul
+	- once the mockups come back from the designer should start implementing the new look and feel.
+
+Tweaks and performance
+	- as always there are probably a tonne of places that could benefit from tweaks and performance
+	  profiling. The biggest spots to make sure there is responsiveness are in the functions that are connected
+	  to keystrokes.
+
+Keyboard implementation of the slide-out menu and popups
+	- this will need to function a little differently than it does on the tablet side
+	- should slide out over top of the keyboard instead of squishing it in
+	- the popup system should generally work the same though
+	- probably only needs to support one side since the screen on a phone is a lot smaller
+
+
+----------------
+Ideas/Wishlist
+----------------
+
+- biggest wish for android stuff is better support for inter-process communication for the Reach stuff.
+	- would include support for more Views, including custom classes.
+
+- less restrictions from the system on what functions the keyboard can access
+	- Android hides a lot of useful things from the keyboard
+
+- better integration/communication from apps to the keyboard
+	- the keyboard could benefit a lot from apps giving some simple details about the text box the user is
+	  currently typing in
+	- ie. the app that it is in, a hint at what the text might be, possible conversation ID or email ID, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

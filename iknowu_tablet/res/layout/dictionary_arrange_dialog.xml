@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center_horizontal"
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFE6E6FA"
+    >
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:background="#FFE6E6FA"
+    	>
+    	
+    	<TextView
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="20dip"
+    		android:text="@string/dict_arrange_description"
+    		android:textColor="#FF1E87D2"
+    		/>
+    		
+		<com.iknowu.draganddrop.DragDropScrollView
+			android:id="@+id/dict_arrange_scrollview"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:padding="10dp"
+   			>
+   		
+			<com.iknowu.draganddrop.DragDropLinearLayout
+				android:id="@+id/dict_arrange_linlayout"
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="10dip"
+				android:background="#FFE6E6FA"
+				/>
+		</com.iknowu.draganddrop.DragDropScrollView>
+	</LinearLayout>
+	
+	<RelativeLayout
+    	android:id="@+id/dict_arrange_relative"
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		/>
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:orientation="horizontal"
+    	android:background="#FFE6E6FA"
+    	>
+		<Button
+			android:layout_centerHorizontal="true"
+     		android:layout_height="wrap_content"
+     		android:layout_width="match_parent"
+     		android:text="@string/label_confirm"
+     		android:textColor="#FFFFFFFF"
+     		android:textSize="20sp"
+     		android:background="@drawable/green_state_button"
+     		android:padding="5dp"
+     		android:onClick="close"
+     		/>
+     </LinearLayout>
+
+</RelativeLayout>

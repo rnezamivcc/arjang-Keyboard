@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_title_legal">
+
+    <com.iknowu.preferences.MyLegalDialoguePreference
+       android:key="Legal"
+       android:title="@string/pref_title_about"
+        android:dialogIcon="@drawable/iknowulogo"
+        android:dialogMessage="(©) 2011 WordLogic Corporation. All Rights Reserved.\nConfidential property of WordLogic Corporation, not for redistribution.\nThis software is protected by \nU.S. Patents 7293231, 7681124, 7716579, 7921361 and by European patents 1171813 and 1356368. Further patents pending.\nFor more information about WordLogic, visit us at www.wordlogic.com."
+        android:dialogTitle="@string/pref_title_about"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="OK"
+        android:summary="@string/version_name"
+    />
+
+    <!-- This PreferenceScreen tag sends the user to a completely different
+      activity, switching out of the current preferences UI. -->
+    <PreferenceScreen android:title="@string/pref_title_privacy">
+        <intent android:action="android.intent.action.VIEW" android:data="http://www.iknowu.net/company.html" />
+    </PreferenceScreen>
+</PreferenceScreen>

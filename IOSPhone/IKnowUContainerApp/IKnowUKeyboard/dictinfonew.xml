@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionaries>
+		<dictionary index="1" versionCode="0" layout="0" fileName="https://dl.dropbox.com/s/7xrp1yc2vqyt5jj/english.zip?dl=1" name="English" localFileName="english" hasAutoCorrect="true" maxPriority="1" testMode="false" />
+		<dictionary index="2" versionCode="0" layout="2" fileName="https://dl.dropbox.com/s/1p3xdmf1eos5hg0/french.zip?dl=1" name="French" localFileName="french" hasAutoCorrect="true" maxPriority="1" testMode="false" />
+		<dictionary index="3" versionCode="0" layout="1" fileName="https://dl.dropbox.com/s/s1w347632jcjnjp/spanish.zip?dl=1" name="Spanish" localFileName="spanish" hasAutoCorrect="true" maxPriority="1" testMode="false" />
+		<dictionary index="9" versionCode="0" layout="0" fileName="https://dl.dropbox.com/s/sxzdf9mhc4itlcy/englishUK.zip?dl=1" name="English (UK)" localFileName="englishuk" hasAutoCorrect="true" maxPriority="1" testMode="false" />
+		<dictionary index="10" versionCode="0" layout="6" fileName="https://dl.dropbox.com/s/u38bqmmbd1l4nqv/russian.zip?dl=1" name="Korean" localFileName="korean" hasAutoCorrect="false" maxPriority="1" testMode="true"/>
+		<dictionary index="11" versionCode="0" layout="0" fileName="https://dl.dropbox.com/s/ke6a5yp6dm9219d/medical.zip?dl=1" name="Medical" localFileName="medical" hasAutoCorrect="false" maxPriority="2" testMode="true" />
+		<dictionary index="13" versionCode="0" layout="5" fileName="https://dl.dropbox.com/s/u38bqmmbd1l4nqv/russian.zip?dl=1" name="Russian" localFileName="russian" hasAutoCorrect="true" maxPriority="1" testMode="true"/>
+</dictionaries>

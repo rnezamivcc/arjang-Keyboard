@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    android:id="@+id/keyboardChoices">
+
+    <Row iknowuKeyWidth="0.1">
+        <Key android:codes="-13" android:keyLabel="QWERTY"/>
+        <Key android:codes="-14" android:keyLabel="ESPANOL" />
+        <Key android:codes="-15" android:keyLabel="AZERTY" />
+    </Row>
+
+    <Row iknowuKeyWidth="0.1">
+        <Key android:codes="-16" android:keyLabel="QWERTZ"/>
+        <Key android:codes="-17" android:keyLabel="QZERTY" />
+        <Key android:codes="-18" android:keyLabel="РУССКИЙ" />
+    </Row>
+
+    <Row iknowuKeyWidth="0.1">
+        <Key android:codes="-19" android:keyLabel="한국어"/>
+        <!--
+        <Key android:codes="-30" android:keyLabel="COMPRESSED" />
+        -->
+    </Row>
+</Keyboard>

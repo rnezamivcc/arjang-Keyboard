@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="@dimen/key_height"
+    android:horizontalGap="1%p"
+    android:verticalGap="5dp">
+	
+	<Row android:keyWidth="8%p">
+       <Key android:codes="215" android:keyLabel="&#215;" android:horizontalGap="5%p"/>  <!-- multiplication -->  
+        <Key android:codes="38" android:keyLabel="&#38;"/> <!-- ampersand -->
+        <Key android:codes="95" android:keyLabel="&#95;"/> <!-- underscore -->  
+        <Key android:codes="8800" android:keyLabel="&#8800;"/> <!-- unequal \u2260 -->
+        <Key android:codes="8730" android:keyLabel="&#8730;"/>   <!--  square root symbol \u221a -->
+        <Key android:codes="8804" android:keyLabel="&#8804;"/> <!--  less or equal symbol \u2264 -->
+        <Key android:codes="8805" android:keyLabel="&#8805;"/> <!--  greater or equal symbol \u2265 -->
+        <Key android:codes="92" android:keyLabel="\\" />
+        <Key android:codes="185" android:keyLabel="¹"/>
+        <Key android:codes="178" android:keyLabel="²"/>
+    </Row>  
+      <Row android:keyWidth="8%p">
+       <Key android:codes="169" android:keyLabel="©" android:horizontalGap="5%p" /> <!-- copyright a9 161 --> 
+        <Key android:codes="191" android:keyLabel="&#191;" /> <!-- inverse question mark 191 bf --> 
+        <Key android:codes="126" android:keyLabel="&#126;"/><!-- tilde 7e  126 -->
+        <Key android:codes="8364" android:keyLabel="&#8364;"/> <!-- euro 8364 20ac --> 
+        <Key android:codes="8734" android:keyLabel="&#8734;"/> <!-- infinity 8734 221e --> 
+        <Key android:codes="167" android:keyLabel="&#167;"/> <!-- paragraphh 167 a7 --> 
+        <Key android:codes="182" android:keyLabel="&#182;"/> <!-- end of paragraph --> 
+        <Key android:codes="161" android:keyLabel="&#161;"/> <!-- reverse q mark 161 a1 --> 
+        <Key android:codes="179" android:keyLabel="³"/> <!-- ampersand -->  
+        <Key android:codes="8308" android:keyLabel="&#8308;"/> <!-- \u2074 superscript 4 --> 
+    </Row>
+    
+   <Row android:keyWidth="8%p">
+        <Key android:codes="174" android:keyLabel="&#174;" android:horizontalGap="5%p" /> <!-- register trademard -->
+        <Key android:codes="8482" android:keyLabel="&#8482;" /> <!-- trademark -->
+        <Key android:codes="176" android:keyLabel="&#176;" /> <!-- degrees -->
+        <Key android:codes="945" android:keyLabel="&#x3b1;"/> <!-- alpha -->
+        <Key android:codes="946" android:keyLabel="&#x3b2;"/> <!-- beta -->
+        <Key android:codes="8221" android:keyLabel="&#8221;"/> <!-- 201d Right Double Quotation Mark-->
+        <Key android:codes="8222" android:keyLabel="&#8222;" /> <!-- 201e Double Low-9 Quotation Mark -->  
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_backspace" android:keyWidth="15%p" keyDarkBackground="true" android:horizontalGap="18%p"/>
+    </Row>
+    
+    <Row android:keyWidth="8%p" android:keyHeight="@dimen/key_height_bottom_row" android:rowEdgeFlags="bottom">
+		<!-- <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done" android:keyWidth="10%p" keyDarkBackground="true"/> -->
+		<Key android:codes="-6" android:keyIcon="@drawable/keyabclabel" android:popupKeyboard="@layout/popup_kbchoices" keyDarkBackground="true"/>
+		<Key android:codes="44" android:keyLabel="," keyDarkBackground="true" />
+		<Key android:codes="32" android:keyWidth="52%p" android:keyIcon="@drawable/sym_keyboard_space" />
+		<Key android:codes="46" android:keyLabel="." keyDarkBackground="true" />
+		<Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" android:keyWidth="18%p" android:popupKeyboard="@layout/popup_smiley" keyDarkBackground="true" />
+	</Row>
+</Keyboard>

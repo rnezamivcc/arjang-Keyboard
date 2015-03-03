@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:background="#FFafafaf"
+    android:padding="3dp" >
+    
+    <TextView
+        android:id="@+id/dict_manager_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#FF000000"
+        android:textSize="18sp" >
+    </TextView>
+    
+    <ImageView
+        android:id="@+id/dict_manager_delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/black_state_button"
+        android:padding="5dp"
+        android:src="@drawable/delete" >
+    </ImageView>
+ 
+</RelativeLayout>

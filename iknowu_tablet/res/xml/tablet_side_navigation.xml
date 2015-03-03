@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="@dimen/key_height"
+    android:horizontalGap="0%p"
+    android:verticalGap="5dp">
+	
+	<Row android:keyWidth="25%p">
+		<Key android:codes="-50" android:keyLabel="COPY"/>
+		<Key android:codes="-51" android:keyLabel="CUT" />
+		<Key android:codes="-52" android:keyLabel="PASTE"/>
+		<Key android:codes="-53" android:keyLabel="SEL ALL"/>
+	</Row>
+	
+	<Row android:keyWidth="33%p">
+		<Key android:codes="-36" android:keyIcon="@drawable/arrow_left_word" keyDarkBackground="true"/>        
+		<Key android:codes="-20" android:keyIcon="@drawable/arrow_up" android:isRepeatable="true" />        
+		<Key android:codes="-37" android:keyIcon="@drawable/arrow_right_word" keyDarkBackground="true"/>        
+	</Row>
+	
+	<Row android:keyWidth="33%p">
+		<Key android:codes="-21" android:keyIcon="@drawable/arrow_left" android:isRepeatable="true"/>
+		<Key android:codes="-22" android:keyIcon="@drawable/arrow_down" android:isRepeatable="true" />
+		<Key android:codes="-23" android:keyIcon="@drawable/arrow_right" android:isRepeatable="true"/>
+	</Row>
+	
+	<Row android:keyWidth="20%p">
+		<Key android:codes="-2" android:keyLabel="123" android:popupKeyboard="@layout/popup_kbchoices_tablet" keyDarkBackground="true"/>
+	</Row>
+</Keyboard>

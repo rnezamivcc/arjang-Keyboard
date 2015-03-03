@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Title for Latin keyboard  -->
+    <string name="ime_name">iKnowU Keyboard</string>
+    <string name="version_name">1.1.9</string>
+    <string name="version_code">119</string>
+
+    <string name="library_version_code">2</string>
+
+    <string name="facebook_id">540452509351455</string>
+    
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    
+    <!-- Preferences menu text -->
+    <string name="pref_title_assistance">Assistance</string>
+    	<string name="pref_title_spaceless">Spaceless Typing</string>
+    		<string name="pref_title_spaceless_summaryon">Long strings of characters will be predicted with spaces inserted.</string>
+    		<string name="pref_title_spaceless_summaryoff">Predictions won\'t be guessed if spaces are missed</string>
+    	<string name="pref_title_help">iKnowU Help</string>
+    		<string name="pref_title_help_summary">iKnowU help screen</string>
+    	<string name="pref_title_capitalize">Capitalize</string>
+    		<string name="pref_title_capitalize_summaryon">Currently words that start sentences will be automatically capitalized</string>
+    		<string name="pref_title_capitalize_summaryoff">Currently words that start sentences won\'t be automatically capitalized</string>
+    	<string name="pref_title_autolearn">Auto-Learn</string>
+    		<string name="pref_title_autolearn_summaryon">Words with a \'+\' sign beside them will be learned when tapped.</string>
+    		<string name="pref_title_autolearn_summaryoff">Words with a \'+\' sign beside them will require a tap and hold to be learned.</string>
+    	<string name="pref_title_autocorrect">Auto-Correct</string>
+    		<string name="pref_title_autocorrect_summaryon">Currently iKnowU will be showing corrections in the prediction bar.</string>
+    		<string name="pref_title_autocorrect_summaryoff">Currently iKnowU will not be showing corrections in the prediction bar.</string>
+    	<string name="pref_title_autocorrect_insert">Auto-Correct Insert</string>
+    		<string name="pref_title_autocorrect_insert_summaryon">Currently auto-correct will automatically insert a correction for you.</string>
+    		<string name="pref_title_autocorrect_insert_summaryoff">Currently you will have to insert a correction manually.</string>
+    	<string name="pref_title_doublespace">Double Space</string>
+    		<string name="pref_title_doublespace_summaryon">Currently a period will be added if there are two consecutive spaces.</string>
+    		<string name="pref_title_doublespace_summaryoff">Currently two consecutive spaces will just be two spaces.</string>
+    
+    <string name="pref_title_feedback">Keyboard Feedback</string>
+    	<string name="pref_title_vibrate">Vibrate on Key Press</string>
+    		<string name="pref_title_vibrate_summary">Set the intensity of key press vibration</string>
+    	<string name="pref_title_sound">Sound on Key Press</string>
+    		<string name="pref_title_sound_summary">Set the intensity of key press sound</string>
+    	<string name="pref_title_highlight">Highlighted Keys</string>
+    		<string name="pref_title_highlight_summaryon">Currently, the next most likely keys you will press, will be highlighted in color</string>
+    		<string name="pref_title_highlight_summaryoff">Currently, the next most likely keys you will press, will not be highlighted in color</string>
+    	<string name="pref_title_correction_indicate">Correction Indication</string>
+    		<string name="pref_title_correction_indicate_summaryon">Currently, when a correction is made the keyboard will flash, make a sound, and vibrate</string>
+    		<string name="pref_title_correction_indicate_summaryoff">Currently, when a correction is made, there will be no feedback from the keyboard</string>
+    	<string name="pref_title_comment">Comment or Report Problem</string>
+    		<string name="pref_title_comment_summary">Tell iKnowU what you think, we\'d love to hear your input</string>
+    		
+    <string name="pref_title_cloud">Cloud Services</string>
+    	<string name="pref_title_cloud_signup">Sign up/Login for cloud sync</string>
+    		<string name="pref_title_cloud_signup_summary">By enabling cloud services you will be able to sync your dictionaries across all your devices, meaning that new words learned here, will show up on your other devices</string>
+    	<string name="pref_title_cloud_enable">Cloud Sync On/Off</string>
+    		<string name="pref_title_cloud_enable_summaryon">You are syncing dictionaries across all your devices</string>
+    		<string name="pref_title_cloud_enable_summaryoff">You are not syncing dictionaries across all your devices</string>
+    	
+    <string name="pref_title_personalize">Personalization</string>
+        <string name="pref_title_personalize_swipe">Enable/Disable Swipe Typing</string>
+            <string name="pref_title_personalize_swipe_summaryon">Swipe Typing is currently enabled</string>
+            <string name="pref_title_personalize_swipe_summaryoff">Swipe Typing is currently disabled</string>
+    	<string name="pref_title_personalize_predfont">Prediction\'s Font Size</string>
+    		<string name="pref_title_personalize_predfont_summary">The font size for the displayed predictions</string>
+    	<string name="pref_title_personalize_keyheight">Key Height</string>
+    		<string name="pref_title_personalize_keyheight_summary">Set the height of the keys on the keyboard</string>
+    	<string name="pref_title_personalize_kbfont_style">Keyboard Font Style</string>
+    		<string name="pref_title_personalize_kbfont_style_summary">Change the look of the keyboard font</string>
+    	<string name="pref_title_personalize_kblayout">Keyboard Layout</string>
+    		<string name="pref_title_personalize_kblayout_summary">Select your preferred keyboard layout to use when typing</string>
+    	<string name="pref_title_personalize_tabkblayout">Tablet Keyboard Layout</string>
+    		<string name="pref_title_personalize_tabkblayout_summary">Set the preferred layout to use when typing on a tablet</string>
+    	<string name="pref_title_personalize_longpress">Long Press Timeout</string>
+    		<string name="pref_title_personalize_longpress_summary">Determines how long you must hold down before a press becomes a long press</string>
+    		<string name="pref_title_personalize_longpress_dialog">Time in milliseconds</string>
+        <string name="pref_title_personalize_delete_word_delay">Word Delete Timeout</string>
+            <string name="pref_title_personalize_delete_word_delay_summary">Determines how long you must hold down before deleting the next word</string>
+            <string name="pref_title_personalize_delete_word_delay_dialog">Time in milliseconds</string>
+    	<string name="pref_title_personalize_kbtheme">Keyboard Theme</string>
+    		<string name="pref_title_personalize_kbtheme_summary">Set the theme for your keyboard</string>
+    	<string name="pref_title_personalize_handedness">Select Handedness</string>
+    		<string name="pref_title_personalize_handedness_summaryon">You are currently in right handed mode</string>
+    		<string name="pref_title_personalize_handedness_summaryoff">You are currently in left handed mode</string>
+        <string name="pref_title_personalize_phrase">Phrase Predictions</string>
+            <string name="pref_title_personalize_phrase_summaryon">Phrase predictions will be shown, making the keyboard taller</string>
+            <string name="pref_title_personalize_phrase_summaryoff">Phrase predictions will not be shown, making the keyboard shorter</string>
+    	
+    <string name="pref_title_legal">Legal</string>
+    	<string name="pref_title_about">About WordLogic</string>
+    	<string name="pref_title_privacy">Legal and Privacy Notice</string>
+    
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    <string name="label_ok_key">OK</string>
+    <string name="label_done_key">Done</string>
+    <string name="label_cancel">Cancel</string>
+
+    <string name="label_no_thanks">No Thanks</string>
+    
+    <string name="label_confirm">Confirm</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_help">Help</string>
+    
+    <string name="label_download">Languages</string>
+    <string name="label_update">Update</string>
+    <string name="label_delete">Delete</string>
+    <string name="loading">Loading</string>
+
+    <string name="website">Website</string>
+    
+    <!-- Prompt for rating strings -->
+    <string name="prompt_rating_text">Thanks for choosing iKnowU Keyboard! We\'d love to hear you\'re feedback, why not leave us a review and tell us what you think?</string>
+    
+    <!-- Expirery strings -->
+    <string name="expirery_text">Thanks for trying iKnowU Keyboard! Purchase the full version to maintain full functionality.</string>
+    
+    <!-- Notification Strings -->
+    <string name="dictionary_update_title">iKnowU Dictionary Update</string>
+    <string name="dictionary_update_message">Updates are available for your dictionaries</string>
+    
+    <!-- Dictionary arrange strings -->
+    <string name="dict_arrange_description">Tap check boxes to enable/disable dictionaries.\nDrag and drop boxes to set priority.\nTop of the list means higher priority.</string>
+    <string name="hide_keyboard">Hide\nKeyboard</string>
+    
+    <!-- Dictionary Manager Strings -->
+    <string name="dict_manager_title">Personal\nDictionary</string>
+    <string name="dict_manager_heading">Manage your personal dictionary</string>
+    <string name="add_word">Type a word in the box and tap the \'+\' to add a word.</string>
+    <string name="delete_word">Tap the \'x\' to delete a word.</string>
+    <string name="your_words">Your Words:</string>
+
+
+    <string name="learn_from">Build a personalized dictionary for better predictions and corrections by letting us learn from your social feeds.</string>
+    <string name="manage_personal">Edit Dictionary</string>
+    <string name="sms">SMS</string>
+    <string name="gmail">Gmail</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    
+    <!-- Dictionary downloader strings -->
+    <string name="dict_download_string">Language\nSettings</string>
+    <string name="set_top_priority_string">Success! Would you like to set your new dictionary as your main language?</string>
+    
+    <!-- For the setup menu -->
+    <string name="setup_choose_language_string">Choose your Language</string>
+    <string name="setup_uninstall_string">Remove Free Version(s)</string>
+    <string name="setup_enable_string">Enable iKnowU</string>
+    <string name="setup_set_default_string">Set iKnowU as Default</string>
+    <string name="setup_cloud_signup_string">Setup Cloud Sync</string>
+    <string name="setup_learn_words_string">Analyze SMS</string>
+    <string name="setup_handedness_string">Set Handedness</string>
+    <string name="setup_email_string">Email:</string>
+    <string name="setup_password_string">Password:</string>
+    
+    <string name="setup_setup_finished_string">Setup Complete!</string>
+    <string name="setup_help_vids_string">View help videos</string>
+    <string name="setup_goto_settings_string">Settings</string>
+    <string name="setup_finish_string">Let me type already!</string>
+    
+    <string name="wait_hit_back">Once you have enabled iKnowU Keyboard, be sure to hit the back button to continue the setup process</string>
+
+    <!-- Error Strings -->
+    <string name="file_not_found">There was an error loading a file. Please make sure that your device is not connected to a computer.</string>
+
+    <!-- Tutorial Strings -->
+    <string name="tutorial_title_help">iKnowU Help</string>
+    <string name="tutorial_title">iKnowU</string>
+
+    <string name="tour_title_home">Home</string>
+    <string name="tour_title_welcome">Thanks for choosing the iKnowU Keyboard!</string>
+    <string name="tour_title_reach">Settings</string>
+    <string name="tour_prediction_title">Predictions &amp; Corrections</string>
+    <string name="tour_popup_title">Pop-ups</string>
+    <string name="tour_themes_title">Themes</string>
+    <string name="tour_not_default">iKnowU Keyboard is not the default keyboard, would you like to set it now?</string>
+    <string name="tour_title_wait">Wait!</string>
+    <string name="tour_title_quick_change">Quick Change</string>
+    <string name="tour_title_language">Languages</string>
+
+    <string name="tutorial_autocorrect_title">Auto-Correct</string>
+    <string name="tutorial_gesturing_title">Gesturing</string>
+    <string name="tutorial_prediction_title">Prediction Bar</string>
+    <string name="tutorial_highlight_title">Key Highlighting</string>
+    <string name="tutorial_popup_title">Popup Keyboards</string>
+    
+    <string name="tutorial_welcome">
+  		Thanks for choosing iKnowU Keyboard! Before you get started, we have a few tips to help you 
+		start using your keyboard to its full potential! \n\nPress next to continue.
+    </string>
+
+    <string name="tour_reach_description_1">With iKnowU Reach, you can \"reach\" into other apps for quick access to useful information.</string>
+    <string name="tour_reach_description_2">Swipe down on the keyboard to switch to the menu screen and then swipe up to return to the keyboard screen.</string>
+    <string name="tour_prediction_description">By tapping on a word in the prediction bar, the word will be inserted with a space following it. Tap and hold on a word with a \'&#8230;\' to insert a word without a space and see additional endings.</string>
+    <string name="tour_popup_description">To access extra characters located on each key, simply press and hold on the desired key, then slide to a character and let go.</string>
+    <string name="tour_themes_description">Choose from one of our many included themes to stylize your typing experience!</string>
+    <string name="tour_quick_change_description_1">You can easily change the layout of your keyboard by pressing and holding on the 123 key on the bottom left.</string>
+    <string name="tour_quick_change_description_2">From there, while still holding down, you can select one of the available options.</string>
+    <string name="tour_language_description_1">iKnowU supports multiple languages at once!</string>
+    <string name="tour_language_description_2">Go to languages</string>
+
+    <string name="tutorial_autocorrect">
+		Auto-corrections will show up in the prediction bar above your keyboard.
+		To use an auto-correction you can simply tap on it from the prediction bar, or better yet, just press space! The word in bold will be the one that gets inserted.
+		If auto-correct has inserted something that you don\'t want, you can simply \'re-correct\' back to what you typed previously by selecting the green word from the prediction bar.
+		If the green word has a \'+\' sign beside it, you can tap and hold to \'re-correct\' this word AND add it to your personal dictionary.
+    </string>
+    
+    <string name="tutorial_swipe_erase">
+		We\'ve also added in the capability to erase your previous word more easily, all you have to do is make a swiping action with your finger from right to left!
+    </string>
+    
+    <string name="tutorial_gesturing">
+    	iKnowU keyboard lets you create words and phrases with a single touch of the keyboard.\n\n
+		All you have to do is type a letter, then press and hold on the space bar!\n\n
+		To select a word, just slide your finger up to the desired word and let go.\n\n
+		Also, some words may have a \'&#8230;\' behind them, by holding your finger on one of these, you will select it and bring up a new set of predictions!
+    </string>
+    
+    <string name="tutorial_prediction_bar">
+    	iKnowU keyboard is always keeping track of what you are typing.\n\n
+		The bar above the keyboard will constantly be predicting your next words and phrases!\n\n
+		To select a word, it\'s as easy as tapping on it.\n\n
+		Also, if a word in the bar has a \'&#8230;\' behind it, just press and hold on it to get more predictions.
+    </string>
+    
+    <string name="tutorial_highlight">
+    	iKnowU keyboard will show you what keys you are most likely going to press next.\n\n
+		Blue keys mean that there are more than five predictions after that letter.\n\n
+		Green keys mean that there are five or less predictions after that letter.\n\n
+		Either way, scanning for your next key becomes a lot less irritating with letter predictions!
+    </string>
+    
+    <string name="tutorial_popup">
+    	Each key can generate multiple different characters.\n\n
+    	To pick a different character just press and hold on the key containing it, slide your finger over to your desired character,
+		and let go."
+    </string>
+</resources>

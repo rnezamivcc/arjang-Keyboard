@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Rouge theme -->
+<theme>
+	<item name="keyColor" value="0xFFcd5c5c"></item>
+	<item name="keyPressedColor" value="0xFFb22222"></item>
+	<item name="keyDarkColor" value="0xFF770000"></item>
+	<item name="backgroundColor" value="0xFFf5f5dc"></item>
+	<item name="upperIconColor" value="0xFFd2b48c"></item>
+	<item name="keyColorMoreThan5" value="0xFF007399"></item>
+	<item name="keyColorLessThan5" value="0xFF009926"></item>
+    <item name="compressedColorMoreThan5" value="0xFF00C956"></item>
+    <item name="compressedColorLessThan5" value="0xFF00C956"></item>
+	<item name="keyTextColor" value="0xFFf5f5dc"></item>
+	<item name="style" value="0"></item>
+	<item name="stroke" value="1"></item>
+	<item name="keyShadowColor" value="0xDD800000"></item>
+	<item name="candidateBackground" value="0xFFf5f5dc"></item>
+	<item name="candidateTextColor" value="0xFFFF0000"></item>
+	<item name="highestPriorityColor" value="0xFFFFC0CB"></item>
+	<item name="candidateSelectedColor" value="0xFFcd5c5c"></item>
+	<item name="candidateAddWordColor" value="0xFF228b22"></item>
+	<item name="candidateDeleteWordColor" value="0xFFb22222"></item>
+	<item name="useGradient" value="true"></item>
+	<item name="gradientDirection" value="2"></item>
+	<item name="cornerRadiusX" value="15"></item>
+	<item name="cornerRadiusY" value="15"></item>
+	<item name="searchItemColor" value="0xFFcd5c5c"></item>
+	<item name="searchItemPressedColor" value="0xFFb22222"></item>
+	<item name="searchBackColor" value="0xFF770000"></item>
+	<item name="searchItemTextColor" value="0xFFFFFFFF"></item>
+	<item name="previewBackgroundColor" value="0xFFFFFFFF"></item>
+	<item name="previewTextColor" value="0xFF770000"></item>
+	<item name="previewBorderColor" value="0xFF272727"></item>
+    <item name="sideBackgroundColor" value="0xFFc5c5ac"/>
+</theme>

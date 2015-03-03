@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    android:id="@+id/keyboardChoices">
+
+    <Row android:keyWidth="33.3%p">
+        <Key android:codes="-7" android:keyLabel="LAYOUT"/>
+        <!--
+        <Key android:codes="-30" android:keyLabel="COMPRESSED" />
+        -->
+    </Row>
+
+    <Row android:keyWidth="10%p"  verticalGap="10dp">
+
+    </Row>
+
+    <!--
+    <Row android:keyWidth="14.28%p"  verticalGap="10dp">
+        <Key android:codes="-6" android:keyLabel="abc"/>
+        <Key android:codes="-2" android:keyLabel="123" />
+        <Key android:codes="-9" android:keyIcon="@drawable/kb_pic_smiley1" />
+        <Key android:codes="-10" android:keyIcon="@drawable/kb_pic_nav1"/>
+        <Key android:codes="-12" android:keyIcon="@drawable/mic_icon" />
+        <Key android:codes="-11" android:keyLabel="sym" />
+        <! <Key android:codes="-14" android:keyLabel="sym2" />
+        <Key android:codes="-8" android:keyLabel="àü" />
+    </Row>
+    -->
+</Keyboard>

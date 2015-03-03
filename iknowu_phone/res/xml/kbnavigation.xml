@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+      android:horizontalGap="0%p"
+      android:keyHeight="@dimen/key_height"
+      android:verticalGap="0%p">
+
+	<Row android:keyWidth="25%p">
+		<Key android:codes="-50" android:keyLabel="COPY"/>
+		<Key android:codes="-51" android:keyLabel="CUT" />
+		<Key android:codes="-52" android:keyLabel="PASTE"/>
+		<Key android:codes="-53" android:keyLabel="SEL ALL"/>
+	</Row>
+	
+	<Row android:keyWidth="33%p">
+        <Key android:codes="-36" android:keyIcon="@drawable/arrow_left_word"/>        
+        <Key android:codes="-20" android:keyIcon="@drawable/arrow_up" android:keyWidth="34%p" android:isRepeatable="true" />        
+        <Key android:codes="-37" android:keyIcon="@drawable/arrow_right_word"/>        
+    </Row>
+      
+	<Row android:keyWidth="33%p">
+        <Key android:codes="-21" android:keyIcon="@drawable/arrow_left" android:isRepeatable="true"/>        
+        <Key android:codes="-22" android:keyIcon="@drawable/arrow_down" android:keyWidth="34%p" android:isRepeatable="true" />        
+        <Key android:codes="-23" android:keyIcon="@drawable/arrow_right" android:isRepeatable="true"/>        
+    </Row>
+    
+	<Row android:keyWidth="16%p" android:rowEdgeFlags="bottom" verticalGap="0dp" >
+        <Key android:codes="-6" android:keyIcon="@drawable/keyabclabel" android:popupKeyboard="@layout/popup_kbchoices" keyDarkBackground="true"/>
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" android:keyWidth="51%p"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_backspace" keyDarkBackground="true"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" android:keyWidth="17%p" android:popupKeyboard="@layout/popup_smiley" android:keyEdgeFlags="right" keyDarkBackground="true"/>
+    </Row>
+
+</Keyboard>    
+
+

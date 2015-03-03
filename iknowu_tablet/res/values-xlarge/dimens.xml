@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- For large screens (tablets) in landscape mode -->
+
+<resources>
+    <dimen name="key_height">80dp</dimen>
+</resources>

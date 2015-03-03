@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="@dimen/key_height"
+    android:horizontalGap="0%p"
+    android:verticalGap="0%p">
+ 
+     <Row android:keyWidth="10%p">
+        <Key android:codes="12610" android:keyLabel="\u1107"   android:keyEdgeFlags="left" isCharKey="true" upperChar="12611"/>
+        <Key android:codes="12616" android:keyLabel="\u110C" isCharKey="true" upperChar="12617"/>
+        <Key android:codes="12599" android:keyLabel="\u1103" isCharKey="true" upperChar="12600"/>
+        <Key android:codes="12593" android:keyLabel="\u1100" isCharKey="true" upperChar="12594"/>
+        <Key android:codes="12613" android:keyLabel="\u1109" isCharKey="true" upperChar="12614"/>
+        <Key android:codes="12635" android:keyLabel="\u116D" isCharKey="true"/>
+        <Key android:codes="12629" android:keyLabel="\u1167" isCharKey="true"/>
+        <Key android:codes="12625" android:keyLabel="\u1163" isCharKey="true"/>
+        <Key android:codes="12624" android:keyLabel="\u1162" isCharKey="true" upperChar="12626"/>
+        <Key android:codes="12628" android:keyLabel="\u1166" android:keyEdgeFlags="right" isCharKey="true" upperChar="12630"/>
+    </Row>  
+   
+   <Row android:keyWidth="10.5%p">
+        <Key android:codes="12609" android:keyLabel="\u1106" android:horizontalGap="2.75%p" isCharKey="true"/>
+        <Key android:codes="12596" android:keyLabel="\u1102" isCharKey="true"/>
+        <Key android:codes="12615" android:keyLabel="\u110B" isCharKey="true"/>
+        <Key android:codes="12601" android:keyLabel="\u1105" isCharKey="true"/>
+        <Key android:codes="12622" android:keyLabel="\u1112" isCharKey="true"/>
+        <Key android:codes="12631" android:keyLabel="\u1169" isCharKey="true"/>
+        <Key android:codes="12627" android:keyLabel="\u1165" isCharKey="true"/>
+        <Key android:codes="12623" android:keyLabel="\u1161" isCharKey="true"/>
+        <Key android:codes="12643" android:keyLabel="\u1175" isCharKey="true"/>
+    </Row>
+    
+   <Row android:keyWidth="10.8%p">
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift"
+             android:isSticky="true"  android:keyEdgeFlags="left" android:isModifier="true" android:keyWidth="12%p"  keyDarkBackground="true" />
+        <Key android:codes="12619" android:keyLabel="\u110F" isCharKey="true"/>
+        <Key android:codes="12620" android:keyLabel="\u1110" isCharKey="true"/>
+        <Key android:codes="12618" android:keyLabel="\u110E" isCharKey="true"/>
+        <Key android:codes="12621" android:keyLabel="\u1111" isCharKey="true"/>
+        <Key android:codes="12640" android:keyLabel="\u1172" isCharKey="true"/>
+        <Key android:codes="12636" android:keyLabel="\u116E" isCharKey="true"/>
+        <Key android:codes="12641" android:keyLabel="\u1173" isCharKey="true"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_backspace" android:keyWidth="12%p" android:keyEdgeFlags="right" keyDarkBackground="true" />
+    </Row>
+    
+     <Row android:keyWidth="10.0%p" android:rowEdgeFlags="bottom" verticalGap="0dp" >
+        <!-- <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done"  android:keyWidth="12%p"  android:keyEdgeFlags="left" keyDarkBackground="true"/> -->
+        <Key android:codes="-2" android:keyIcon="@drawable/key123label" android:popupKeyboard="@layout/popup_kbchoices" android:keyWidth="12%p" keyDarkBackground="true"/>
+        <Key android:codes="44" android:keyLabel="," keyDarkBackground="true" isCharKey="true" />
+        <Key android:codes="32" android:keyWidth="56%p" android:keyIcon="@drawable/sym_keyboard_space" isCharKey="true" />
+        <Key android:codes="46" android:keyLabel="." keyDarkBackground="true" isCharKey="true" />
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" android:keyWidth="11.8%p" android:popupKeyboard="@layout/popup_smiley" android:keyEdgeFlags="right" keyDarkBackground="true" />
+    </Row>
+</Keyboard>    
+

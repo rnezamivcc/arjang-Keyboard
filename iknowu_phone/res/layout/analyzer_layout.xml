@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/analyzer_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDDDDDD">
+    <LinearLayout
+        android:id="@+id/analyzer_linlay"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/learn_from"
+            android:background="@drawable/info_bg_white"
+            android:textColor="#FF1E87D2"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+                android:id="@+id/edit_button"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/green_state_button">
+
+            <ImageView
+                    android:id="@+id/edit_logo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/ic_action_edit"
+                    android:layout_centerVertical="true" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/edit_logo"
+                    android:text="@string/manage_personal"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="24sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/sms_button"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/blue_state_button">
+
+            <ImageView
+                    android:id="@+id/sms_logo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/ic_action_mail"
+                    android:layout_centerVertical="true" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/sms_logo"
+                    android:text="@string/sms"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="24sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gmail_button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/green_state_button">
+
+            <ImageView
+                android:id="@+id/gmail_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/gmail_logo"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/gmail_logo"
+                android:text="@string/gmail"
+                android:textColor="#FFFFFFFF"
+                android:textSize="24sp"/>
+        </RelativeLayout>
+
+        <!--
+        <RelativeLayout
+            android:id="@+id/facebook_button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/blue_state_button">
+
+            <ImageView
+                android:id="@+id/facebook_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/facebook_logo"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/facebook_logo"
+                android:text="@string/facebook"
+                android:textColor="#FFFFFFFF"
+                android:textSize="24sp"/>
+        </RelativeLayout>
+        -->
+        <com.facebook.widget.LoginButton
+            xmlns:fb="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/facebook_button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/facebook"
+            android:textSize="24sp"
+            android:textColor="#FFFFFFFF"
+            android:layout_marginBottom="10dp"
+
+            fb:login_text="Facebook"
+            fb:logout_text="Facebook" />
+
+        <RelativeLayout
+            android:id="@+id/twitter_button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/green_state_button">
+
+            <ImageView
+                android:id="@+id/twitter_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/twitter_logo"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/twitter_logo"
+                android:text="@string/twitter"
+                android:textColor="#FFFFFFFF"
+                android:textSize="24sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

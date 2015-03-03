@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    android:keyWidth="11%p"
+    android:id="@+id/keyboardChoices">
+
+	<Row>     
+		<Key android:codes="-2" android:keyLabel="123" />
+		<Key android:codes="-9" android:keyIcon="@drawable/kb_pic_smiley1"  />
+		<Key android:codes="-10" android:keyIcon="@drawable/kb_pic_nav1"/>
+		<Key android:codes="-12" android:keyIcon="@drawable/mic_icon" />
+		<Key android:codes="-11" android:keyLabel="sym" />
+		<!-- <Key android:codes="-14" android:keyLabel="sym2" /> -->
+		<Key android:codes="-8" android:keyLabel="àü" />
+	</Row>
+</Keyboard>

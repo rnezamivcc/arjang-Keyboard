@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iknowu="http://schemas.android.com/apk/res/com.iknowu"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    android:id="@+id/popupKeyboardSmileys">
+
+	<Row iknowu:keywidth="0.12dp">
+		<Key android:codes="-44" android:keyIcon="@drawable/smiley_smile" android:keyOutputText=":-) "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_sad" android:keyOutputText=":-( "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_wink" android:keyOutputText=";-) "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_tongue" android:keyOutputText=":-P "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_gasp" android:keyOutputText="=-O "/>
+	</Row>
+	
+	<Row iknowu:keywidth="0.12dp">
+	    <Key android:codes="-44" android:keyIcon="@drawable/smiley_kiss" android:keyOutputText=":-* "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_angry" android:keyOutputText=":O "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_glasses" android:keyOutputText="B-) "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_money" android:keyOutputText=":-$ "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_scared" android:keyOutputText=":-! "/>
+	</Row>
+	
+	<Row iknowu:keywidth="0.12dp">
+	    <Key android:codes="-44" android:keyIcon="@drawable/smiley_blushing" android:keyOutputText=":-[ "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_angel" android:keyOutputText="O:-) "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_crying" android:keyOutputText=":'( "/>
+        <Key android:codes="-44" android:keyIcon="@drawable/smiley_grin" android:keyOutputText=":-D "/>
+	</Row>
+</Keyboard>

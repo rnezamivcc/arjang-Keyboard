@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/tab_kb_pressed" /> <!-- pressed -->
+    <item android:state_selected="true"
+          android:drawable="@drawable/tab_kb_selected" /> <!-- disabled -->
+    <item android:state_activated="true"
+        android:drawable="@drawable/tab_kb_activated" /> <!-- activated -->
+    <item android:drawable="@drawable/tab_kb_deselected" /> <!-- default -->
+</selector>

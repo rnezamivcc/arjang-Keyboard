@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<popups>
+	<character value="a">
+	    <key value="\u0040" default="true"/>
+	    <key value="A" />
+	    <key value="\u00e1" />
+	    <key value="\u0101" />
+	</character>
+	
+	<character value="A">
+	    <key value="\u0040" default="true"/>
+	    <key value="a" />
+	    <key value="\u00c1" />
+	    <key value="\u0101" />
+	</character>
+	
+	<character value="b">
+	    <key value="8" default="true"/>
+	    <key value="B" />
+	    <key value="\u221e" />
+	</character>
+	
+	<character value="B">
+	    <key value="8" default="true"/>
+	    <key value="b" />
+	    <key value="\u221e" />
+	</character>
+	
+	<character value="c">
+	    <key value="%" default="true"/>
+	    <key value="C" />
+	    <key value="\u00a9" />
+	</character>
+	
+	<character value="C">
+	    <key value="%" default="true"/>
+	    <key value="c" />
+	    <key value="\u00a9" />
+	</character>
+	
+	<character value="d">
+	    <key value="\u0023" default="true"/>
+	    <key value="D" />
+	    <key value="÷" />
+	</character>
+	
+	<character value="D">
+	    <key value="\u0023" default="true"/>
+	    <key value="d" />
+	    <key value="÷" />
+	</character>
+	
+	<character value="e">
+	    <key value="-" default="true"/>
+	    <key value="E" />
+	    <key value="_" />
+	    <key value="\u00e9" />
+	    <key value="\u20ac" />
+	</character>
+	
+	<character value="E">
+	    <key value="-" default="true"/>
+	    <key value="e" />
+	    <key value="_" />
+	    <key value="\u00c9" />
+	    <key value="\u20ac" />
+	</character>
+	
+	<character value="f">
+	    <key value="$" default="true"/>
+	    <key value="F" />
+	</character>
+	
+	<character value="F">
+	    <key value="$" default="true"/>
+	    <key value="f" />
+	</character>
+	
+	<character value="g">
+	    <key value="4" default="true"/>
+	    <key value="G" />
+	</character>
+	
+	<character value="G">
+	    <key value="4" default="true"/>
+	    <key value="g" />
+	</character>
+	
+	<character value="h">
+	    <key value="5" default="true"/>
+	    <key value="H" />
+	</character>
+	
+	<character value="H">
+	    <key value="5" default="true"/>
+	    <key value="h" />
+	</character>
+	
+	<character value="i">
+	    <key value="/" default="true"/>
+	    <key value="I" />
+	    <key value="\\" />
+	    <key value="|" />
+	</character>
+	
+	<character value="I">
+	    <key value="/" default="true"/>
+	    <key value="i" />
+	    <key value="\\" />
+	    <key value="|" />
+	</character>
+	
+	<character value="j">
+	    <key value="6" default="true"/>
+	    <key value="J" />
+	    <key value="^" />
+	</character>
+	
+	<character value="J">
+	    <key value="6" default="true"/>
+	    <key value="j" />
+	    <key value="^" />
+	</character>
+	
+	<character value="k">
+	    <key value="!" default="true"/>
+	    <key value="K" />
+	    <key value="\u2022" />
+	</character>
+	
+	<character value="K">
+	    <key value="!" default="true"/>
+	    <key value="k" />
+	    <key value="\u2022" />
+	</character>
+	
+	<character value="l">
+	    <key value="&lt;" default="true"/>
+	    <key value="L" />
+	    <key value="[" />
+	    <key value="{" />
+	</character>
+	
+	<character value="L">
+	    <key value="&lt;" default="true"/>
+	    <key value="l" />
+	    <key value="[" />
+	    <key value="{" />
+	</character>
+	
+	<character value="m">
+	    <key value="0" default="true"/>
+	    <key value="M" />
+	</character>
+	
+	<character value="M">
+	    <key value="0" default="true"/>
+	    <key value="m" />
+	</character>
+	
+	<character value="n">
+	    <key value="9" default="true"/>
+	    <key value="N" />
+	</character>
+	
+	<character value="N">
+	    <key value="9" default="true"/>
+	    <key value="n" />
+	</character>
+	
+	<character value="o">
+	    <key value="(" default="true"/>
+	    <key value="O" />
+	    <key value="\u00f3" />
+	    <key value="\u014D" />
+	</character>
+	
+	<character value="O">
+	    <key value="(" default="true"/>
+	    <key value="o" />
+	    <key value="\u00f3" />
+	    <key value="\u014D" />
+	</character>
+	
+	<character value="p">
+	    <key value=")" default="true"/>
+	    <key value="P" />
+	</character>
+	
+	<character value="P">
+	    <key value=")" default="true"/>
+	    <key value="p" />
+	</character>
+	
+	<character value="q">
+	    <key value="*" default="true"/>
+	    <key value="Q" />
+	</character>
+	
+	<character value="Q">
+	    <key value="*" default="true"/>
+	    <key value="q" />
+	</character>
+	
+	<character value="r">
+	    <key value="=" default="true"/>
+	    <key value="R" />
+	    <key value="\u00ae" />
+	</character>
+	
+	<character value="R">
+	    <key value="=" default="true"/>
+	    <key value="r" />
+	    <key value="\u00ae" />
+	</character>
+	
+	<character value="s">
+	    <key value="&amp;" default="true"/>
+	    <key value="S" />
+	    <key value="\u00bf" />
+	</character>
+	
+	<character value="S">
+	    <key value="&amp;" default="true"/>
+	    <key value="s" />
+	    <key value="\u00bf" />
+	</character>
+	
+	<character value="t">
+	    <key value="1" default="true"/>
+	    <key value="T" />
+	</character>
+	
+	<character value="T">
+	    <key value="1" default="true"/>
+	    <key value="t" />
+	</character>
+	
+	<character value="u">
+	    <key value="3" default="true"/>
+	    <key value="U" />
+	    <key value="\u00fa" />
+	    <key value="\u00fc" />
+	</character>
+	
+	<character value="U">
+	    <key value="3" default="true"/>
+	    <key value="u" />
+	    <key value="\u00da" />
+	    <key value="\u00dc" />
+	</character>
+	
+	<character value="v">
+	    <key value="7" default="true"/>
+	    <key value="V" />
+	    <key value="\u221a" />
+	</character>
+	
+	<character value="V">
+	    <key value="7" default="true"/>
+	    <key value="v" />
+	    <key value="\u221a" />
+	</character>
+	
+	<character value="w">
+	    <key value="+" default="true"/>
+	    <key value="W" />
+	</character>
+	
+	<character value="W">
+	    <key value="+" default="true"/>
+	    <key value="w" />
+	</character>
+	
+	<character value="x">
+	    <key value="X" default="true"/>
+	    <key value="\u00d7" />
+	</character>
+	
+	<character value="X">
+	    <key value="x" default="true"/>
+	    <key value="\u00d7" />
+	</character>
+	
+	<character value="y">
+	    <key value="2" default="true"/>
+	    <key value="Y" />
+	</character>
+	
+	<character value="Y">
+	    <key value="2" default="true"/>
+	    <key value="Y" />
+	</character>
+	
+	<character value="z">
+	    <key value="'" default="true"/>
+	    <key value="Z" />
+	    <key value="~" />
+	</character>
+	
+	<character value="Z">
+	    <key value="'" default="true"/>
+	    <key value="z" />
+	    <key value="~" />
+	</character>
+	
+	<character value=".">
+	    <key value=":" default="true"/>
+	    <key value="!" />
+	    <key value=".es" />
+	    <key value=".com" />
+	    <key value=".eu" />
+	    <key value="&#x2022;" />
+	    <key value="&#x2026;" />
+	    <key value=".net" />
+	    <key value=".org" />
+	</character>
+	
+	<character value=",">
+	    <key value=";" default="true"/>
+	    <key value="'" />
+	    <key value="\u0022" />
+	    <key value="\u2018" />
+	    <key value="\u201c" />
+	    <key value="\u02db" />
+	</character>
+	
+	<character value="!">
+	    <key value="\u003F" default="true"/>
+	    <key value="\u00a1" />
+	    <key value="\u00bf" />
+	</character>
+	
+	<character value="\u00f1">
+	    <key value="&gt;" default="true"/>
+	    <key value="]" />
+	    <key value="}" />
+	</character>
+	
+	<character value="\u00d1">
+	    <key value="&gt;" default="true"/>
+	    <key value="]" />
+	    <key value="}" />
+	</character>
+</popups>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="@dimen/key_height"
+    android:horizontalGap="0%p"
+    android:verticalGap="5dp">
+	
+	<Row android:keyWidth="14%p">
+		<Key android:codes="42" android:keyLabel="*"  android:keyEdgeFlags="left"/>
+		<Key android:codes="43" android:keyLabel="+"/>
+		<Key android:codes="45" android:keyLabel="-"/>
+		<Key android:codes="61" android:keyLabel="="/>
+		<Key android:codes="60" android:keyLabel="&#60;"/>     <!-- comment < -->
+		<Key android:codes="62" android:keyLabel="&#62;"/>     <!-- comment > -->
+		<Key android:codes="47" android:keyLabel="/" android:keyEdgeFlags="right"/>
+	</Row>
+	
+	<Row android:keyWidth="14%p">
+		<Key android:codes="35" android:keyLabel="#" android:keyEdgeFlags="left"/>
+		<Key android:codes="36" android:keyLabel="$"/>
+		<Key android:codes="92" android:keyLabel="\\" />
+		<Key android:codes="124" android:keyLabel="|"/>
+		<Key android:codes="94" android:keyLabel="^" />
+		<Key android:codes="40" android:keyLabel="("/>
+		<Key android:codes="41" android:keyLabel=")" android:keyEdgeFlags="right"/>     
+	</Row>      
+    
+	<Row android:keyWidth="14%p">
+		<Key android:codes="39" android:keyLabel="\'" android:keyEdgeFlags="left"/> 
+		<Key android:codes="8220" android:keyLabel="&#8220;" />
+		<Key android:codes="91" android:keyLabel="["/>
+		<Key android:codes="93" android:keyLabel="]"/>
+		<Key android:codes="9833" android:keyLabel="\u2669" />  <!-- quarter note -->
+		<Key android:codes="182" android:keyLabel="\u00b6"/>    <!--  pilcrow sign -->
+		<Key android:codes="126" android:keyLabel="~" android:keyEdgeFlags="right"/>
+	</Row>
+	
+	<Row android:keyWidth="14%p">
+		<Key android:codes="-9" android:keyWidth="16%p" android:keyLabel="sym2" android:popupKeyboard="@layout/popup_kbchoices_tablet" android:keyEdgeFlags="left" keyDarkBackground="true" />
+		<Key android:codes="64" android:keyLabel="\&#64;"/>    <!-- comment @ needs to be escaped -->
+		<Key android:codes="95" android:keyLabel="_"/>
+		<Key android:codes="38" android:keyLabel="&#38;"/>
+		<Key android:codes="37" android:keyLabel="%" android:keyEdgeFlags="right"/>  
+	</Row>
+</Keyboard>

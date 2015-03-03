@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" contentMode="scaleToFill" id="iN0-l3-epB" customClass="ContactsDetailView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="184"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqU-ko-8WA" customClass="ContactButton">
+                    <rect key="frame" x="110" y="151" width="100" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="LjV-BD-PWX"/>
+                        <constraint firstAttribute="height" constant="25" id="Zbm-NI-CyV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="donePressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="vAA-Dd-HUO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sls-xe-Zo0" customClass="ContactButton">
+                    <rect key="frame" x="212" y="151" width="100" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="A6B-Ej-Dl6"/>
+                        <constraint firstAttribute="width" constant="100" id="crD-5S-7at"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Clip">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clipPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="elY-vV-D87"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJx-cq-tME" customClass="ContactButton">
+                    <rect key="frame" x="8" y="151" width="100" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="gEg-I2-8Pa"/>
+                        <constraint firstAttribute="height" constant="25" id="yKc-mS-kt1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Back">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="cL6-8B-VqX"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W5m-li-teD">
+                    <rect key="frame" x="8" y="8" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Okj-BY-Of7"/>
+                        <constraint firstAttribute="width" constant="60" id="eFS-LB-kvo"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IxO-7f-5Kr" customClass="ContactButton">
+                    <rect key="frame" x="76" y="8" width="76" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="BJd-ba-3ko"/>
+                        <constraint firstAttribute="width" constant="76" id="whE-q6-ka8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="otherPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="qcj-qf-PP2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTA-Tj-PZB" customClass="ContactButton">
+                    <rect key="frame" x="76" y="36" width="158" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="158" id="LSB-T2-NMI"/>
+                        <constraint firstAttribute="height" constant="25" id="xf3-8F-JqU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="otherPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Iln-Nx-soX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ci3-hc-eEj" customClass="ContactButton">
+                    <rect key="frame" x="76" y="64" width="158" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="158" id="O2k-8f-XJ3"/>
+                        <constraint firstAttribute="height" constant="25" id="cvQ-j9-6Vz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="otherPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="V40-ct-fir"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3A2-6G-joQ" customClass="ContactButton">
+                    <rect key="frame" x="76" y="92" width="158" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="158" id="gWD-QX-iok"/>
+                        <constraint firstAttribute="height" constant="25" id="pBB-nw-N1P"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="otherPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ikn-WK-8cm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBM-Wb-agS" customClass="ContactButton">
+                    <rect key="frame" x="76" y="120" width="158" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="158" id="8cU-7c-R59"/>
+                        <constraint firstAttribute="height" constant="25" id="Y18-pA-Oy8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="otherPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="sKZ-SS-Tew"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2h-ul-fdl">
+                    <rect key="frame" x="238" y="94" width="74" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="ema-OK-rC4"/>
+                        <constraint firstAttribute="width" constant="74" id="fFD-E4-BKJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eet-bB-flJ">
+                    <rect key="frame" x="238" y="121" width="74" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="YwT-Jk-eqM"/>
+                        <constraint firstAttribute="width" constant="74" id="zrE-BF-A05"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nti-vZ-d84">
+                    <rect key="frame" x="238" y="38" width="74" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="BSo-eB-81S"/>
+                        <constraint firstAttribute="width" constant="74" id="Qot-oJ-zqz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyw-Ke-ksz" customClass="ContactButton">
+                    <rect key="frame" x="155" y="8" width="79" height="25"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="79" id="dpH-lC-LcP"/>
+                        <constraint firstAttribute="height" constant="25" id="xcZ-t2-EzF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="otherPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Fxp-u7-fbf"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkD-TZ-57O">
+                    <rect key="frame" x="238" y="66" width="74" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="74" id="18C-vS-dX1"/>
+                        <constraint firstAttribute="height" constant="21" id="wU2-wD-r1j"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="W5m-li-teD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="20E-5c-X6n"/>
+                <constraint firstItem="jkD-TZ-57O" firstAttribute="leading" secondItem="Ci3-hc-eEj" secondAttribute="trailing" constant="4" id="2F1-VC-gU1"/>
+                <constraint firstItem="eet-bB-flJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="121" id="5I8-kw-9Nu"/>
+                <constraint firstAttribute="bottom" secondItem="Sls-xe-Zo0" secondAttribute="bottom" constant="8" id="5e3-mL-DQr"/>
+                <constraint firstItem="oTA-Tj-PZB" firstAttribute="leading" secondItem="Ci3-hc-eEj" secondAttribute="leading" id="Agj-hY-aT7"/>
+                <constraint firstItem="eet-bB-flJ" firstAttribute="leading" secondItem="kBM-Wb-agS" secondAttribute="trailing" constant="4" id="BVW-Pc-uYr"/>
+                <constraint firstAttribute="bottom" secondItem="aqU-ko-8WA" secondAttribute="bottom" constant="8" id="Ds6-uc-ufi"/>
+                <constraint firstItem="oTA-Tj-PZB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="36" id="E5Z-fI-F3L"/>
+                <constraint firstItem="aqU-ko-8WA" firstAttribute="leading" secondItem="iJx-cq-tME" secondAttribute="trailing" constant="2" id="Hmc-w5-ysU"/>
+                <constraint firstItem="Sls-xe-Zo0" firstAttribute="leading" secondItem="aqU-ko-8WA" secondAttribute="trailing" constant="2" id="KTc-6C-oUT"/>
+                <constraint firstItem="3A2-6G-joQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="92" id="NXX-xC-tMQ"/>
+                <constraint firstItem="IxO-7f-5Kr" firstAttribute="leading" secondItem="W5m-li-teD" secondAttribute="trailing" constant="8" id="O5y-gq-hch"/>
+                <constraint firstAttribute="bottom" secondItem="iJx-cq-tME" secondAttribute="bottom" constant="8" id="Suf-WN-JAt"/>
+                <constraint firstItem="3A2-6G-joQ" firstAttribute="leading" secondItem="kBM-Wb-agS" secondAttribute="leading" id="XA7-5a-c6v"/>
+                <constraint firstItem="kBM-Wb-agS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="120" id="ZKA-Pa-VQK"/>
+                <constraint firstItem="Zyw-Ke-ksz" firstAttribute="leading" secondItem="IxO-7f-5Kr" secondAttribute="trailing" constant="3" id="caT-Gj-FoZ"/>
+                <constraint firstItem="iJx-cq-tME" firstAttribute="leading" secondItem="W5m-li-teD" secondAttribute="leading" id="cwM-IJ-ggG"/>
+                <constraint firstAttribute="centerX" secondItem="aqU-ko-8WA" secondAttribute="centerX" id="h3u-pv-8IM"/>
+                <constraint firstItem="jkD-TZ-57O" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="66" id="h9P-qB-k6G"/>
+                <constraint firstItem="3A2-6G-joQ" firstAttribute="leading" secondItem="Ci3-hc-eEj" secondAttribute="leading" id="hbm-pn-VJe"/>
+                <constraint firstItem="t2h-ul-fdl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="94" id="jQ6-8I-oRq"/>
+                <constraint firstItem="Nti-vZ-d84" firstAttribute="leading" secondItem="oTA-Tj-PZB" secondAttribute="trailing" constant="4" id="jb1-BS-Usn"/>
+                <constraint firstItem="Ci3-hc-eEj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="rfa-24-BUZ"/>
+                <constraint firstItem="IxO-7f-5Kr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="sNL-WG-TRt"/>
+                <constraint firstItem="oTA-Tj-PZB" firstAttribute="leading" secondItem="IxO-7f-5Kr" secondAttribute="leading" id="ttf-31-WSL"/>
+                <constraint firstItem="Nti-vZ-d84" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="38" id="wdu-by-jNf"/>
+                <constraint firstItem="Zyw-Ke-ksz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="xJ8-Hw-Mn9"/>
+                <constraint firstItem="t2h-ul-fdl" firstAttribute="leading" secondItem="3A2-6G-joQ" secondAttribute="trailing" constant="4" id="ynP-yL-Obj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="aButton" destination="oTA-Tj-PZB" id="by1-DJ-PB2"/>
+                <outlet property="aLabel" destination="Nti-vZ-d84" id="Kga-Cd-7xB"/>
+                <outlet property="bButton" destination="Ci3-hc-eEj" id="JgR-FH-Nkz"/>
+                <outlet property="bLabel" destination="jkD-TZ-57O" id="jge-PL-zXc"/>
+                <outlet property="backButton" destination="iJx-cq-tME" id="zfT-tv-Z1s"/>
+                <outlet property="cButton" destination="3A2-6G-joQ" id="PJu-Qc-Ozp"/>
+                <outlet property="cLabel" destination="t2h-ul-fdl" id="zlx-X3-Sa0"/>
+                <outlet property="clipButton" destination="Sls-xe-Zo0" id="7ZY-GN-QZw"/>
+                <outlet property="contactImageView" destination="W5m-li-teD" id="DI3-aY-PaD"/>
+                <outlet property="dButton" destination="kBM-Wb-agS" id="KdU-TY-Ovh"/>
+                <outlet property="dLabel" destination="eet-bB-flJ" id="zLW-km-wBw"/>
+                <outlet property="doneButton" destination="aqU-ko-8WA" id="8nW-vX-tsi"/>
+                <outlet property="lastNameButton" destination="Zyw-Ke-ksz" id="TG1-ZR-0p9"/>
+                <outlet property="nameButton" destination="IxO-7f-5Kr" id="MmK-7Z-o9P"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="155"/>
+        </view>
+    </objects>
+</document>

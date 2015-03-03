@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources >
+	
+	<attr name="defaultSelectionStringInPopup" format="string" />
+	<attr name="defaultSelectionKeyIdxInPopup" format="integer" />
+	
+	<attr name="keyUprDescriptionLabel" format="string" />
+	<attr name="keyUprIcon" format="string" />
+	<attr name="keyUprLongPressLabel" format="string" />
+	<attr name="keyUprLongPressLabelCentered" format="boolean" />
+	<attr name="keyDarkBackground" format="boolean" />
+	
+	<attr name="min" format="integer" />
+	
+	<attr name="keywidth" format="dimension" />
+	
+	<declare-styleable name="ImageListPreference">
+		<attr name="entryIcons" format="reference" />
+		<attr name="entryValuesIds" format="reference" />
+		<attr name="entryValuesInts" format="integer" />
+	</declare-styleable>
+	
+	<string-array name="keyboardLayoutArray">
+        <item>QWERTY</item>
+        <item>QWERTY (Espanol)</item>
+        <item>AZERTY</item>
+        <item>QWERTZ</item>
+        <item>QZERTY</item>
+        <item>РУССКИЙ</item>
+        <item>한국어</item>
+        <!--
+        <item>COMPRESSED</item>
+        <item>FEATURE PHONE</item>
+        -->
+    </string-array>
+
+    <string-array name="keyboardLayoutVals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <!--
+        <item>30</item>
+        <item>31</item>
+        -->
+    </string-array>
+    
+    <string-array name="fontStyleArray">
+        <item>REGULAR</item>
+        <item>LARGE</item>
+        <item>LARGE OFFSET</item>
+    </string-array>
+
+    <string-array name="fontStyleVals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <array name="fontStyleIcons">
+		<item>@drawable/font_style_regular</item>
+		<item>@drawable/font_style_bold</item>
+		<item>@drawable/font_style_bold_offset</item>
+	</array>
+    
+    <string-array name="predFontArray">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>X-Large</item>
+        <item>XXL</item>
+    </string-array>
+
+    <string-array name="predFontValues">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>xlarge</item>
+        <item>xxlarge</item>
+    </string-array>
+	
+	<string-array name="themeNamesArray">
+		<item>iKnowU</item>
+        <item>Holo</item>
+        <item>iPple</item>
+        <item>Sophisticated</item>
+        <item>Dark</item>
+        <item>Zorin</item>
+		<item>Midnight</item>
+		<item>Neon Green</item>
+		<item>Rouge</item>
+		<item>Cool Blue</item>
+		<item>Neon Orange</item>
+		<item>Black and White</item>
+		<item>Light</item>
+		<item>Pretty in Pink</item>
+		<item>Bumblebee</item>
+		<item>Retro</item>
+        <item>Crystal Gloss</item>
+	</string-array>
+	
+	<array name="themeValuesArray">
+		<item>@xml/theme1</item>
+        <item>@xml/theme15</item>
+        <item>@xml/theme16</item>
+        <item>@xml/theme11</item>
+        <item>@xml/theme12</item>
+        <item>@xml/theme13</item>
+		<item>@xml/theme2</item>
+		<item>@xml/theme3</item>
+		<item>@xml/theme4</item>
+		<item>@xml/theme5</item>
+		<item>@xml/theme6</item>
+		<item>@xml/theme7</item>
+		<item>@xml/theme8</item>
+		<item>@xml/theme9</item>
+		<item>@xml/theme10</item>
+		<item>@xml/theme14</item>
+        <item>@xml/theme17</item>
+	</array>
+	
+	<array name="themeIconsArray">
+		<item>@drawable/theme1</item>
+        <item>@drawable/theme15</item>
+        <item>@drawable/theme16</item>
+        <item>@drawable/theme11</item>
+        <item>@drawable/theme12</item>
+        <item>@drawable/theme13</item>
+		<item>@drawable/theme2</item>
+		<item>@drawable/theme3</item>
+		<item>@drawable/theme4</item>
+		<item>@drawable/theme5</item>
+		<item>@drawable/theme6</item>
+		<item>@drawable/theme7</item>
+		<item>@drawable/theme8</item>
+		<item>@drawable/theme9</item>
+		<item>@drawable/theme10</item>
+		<item>@drawable/theme14</item>
+        <item>@drawable/theme17</item>
+	</array>
+</resources>

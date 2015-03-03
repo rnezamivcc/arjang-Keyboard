@@ -1,0 +1,7 @@
+#goforit 45
+#goforthebest 20
+#gofordinner 10
+#goforlunch 12
+#goforasoda 20
+#goforthemoon 11
+#goforsunset 13

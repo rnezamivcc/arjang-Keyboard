@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_title_assistance">
+
+    <!--
+    <CheckBoxPreference
+        android:key="spaceless_typing"
+        android:title="@string/pref_title_spaceless"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_spaceless_summaryon"
+        android:summaryOff="@string/pref_title_spaceless_summaryoff"
+    />
+    -->
+    <!-- This PreferenceScreen tag sends the user to a completely different
+      activity, switching out of the current preferences UI. -->
+    <PreferenceScreen android:title="@string/pref_title_help"
+        android:summary="@string/pref_title_help_summary">
+        <intent android:targetClass="com.iknowu.setup.TutorialActivity" android:targetPackage="com.iknowu" />
+    </PreferenceScreen>
+
+    <CheckBoxPreference
+        android:key="autocap_on"
+        android:title="@string/pref_title_capitalize"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_capitalize_summaryon"
+        android:summaryOff="@string/pref_title_capitalize_summaryoff"
+    />
+
+    <CheckBoxPreference
+        android:key="autolearn_on"
+        android:title="@string/pref_title_autolearn"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_autolearn_summaryon"
+        android:summaryOff="@string/pref_title_autolearn_summaryoff"
+    />
+
+    <!--
+    <CheckBoxPreference
+        android:key="inlineaddition_on"
+        android:title="In-Line Additions"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="Currently asking if you want to add new words to the Personal Dictionary when unrecognized."
+        android:summaryOff="Currently not asking if you want to add new words to the Personal Dictionary when unrecognized."
+    />
+    -->
+
+    <CheckBoxPreference
+        android:key="autocorrect_on"
+        android:title="@string/pref_title_autocorrect"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_autocorrect_summaryon"
+        android:summaryOff="@string/pref_title_autocorrect_summaryoff"
+    />
+
+    <CheckBoxPreference
+        android:key="autocorrect_insert_auto"
+        android:title="@string/pref_title_autocorrect_insert"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_autocorrect_insert_summaryon"
+        android:summaryOff="@string/pref_title_autocorrect_insert_summaryoff"
+    />
+
+    <CheckBoxPreference
+        android:key="double_space_period"
+        android:title="@string/pref_title_doublespace"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_doublespace_summaryon"
+        android:summaryOff="@string/pref_title_doublespace_summaryoff"
+    />
+
+</PreferenceScreen>
+
+

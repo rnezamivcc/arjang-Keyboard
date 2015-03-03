@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iknowu="http://schemas.android.com/apk/res/com.iknowu"
+    android:title="@string/pref_title_feedback">
+
+    <com.iknowu.preferences.SeekBarPreference
+        android:title="@string/pref_title_vibrate"
+        android:key="vibrateListPref"
+        android:summary="@string/pref_title_vibrate_summary"
+        android:dialogMessage="Vibration Intensity"
+        android:defaultValue="50"
+        android:max="100"
+        iknowu:min="0"
+    />
+
+    <com.iknowu.preferences.SeekBarPreference
+        android:key="soundListPref"
+        android:title="@string/pref_title_sound"
+        android:summary="@string/pref_title_sound_summary"
+        android:dialogMessage="Sound Volume"
+        android:defaultValue="50"
+        android:max="100"
+        iknowu:min="0"
+    />
+
+    <CheckBoxPreference
+        android:key="highlightedkeys_on"
+        android:title="@string/pref_title_highlight"
+        android:persistent="true"
+        android:defaultValue="true"
+        android:summaryOn="@string/pref_title_highlight_summaryon"
+        android:summaryOff="@string/pref_title_highlight_summaryoff"
+    />
+
+    <CheckBoxPreference
+        android:key="correction_feedback"
+        android:title="@string/pref_title_correction_indicate"
+        android:persistent="true"
+        android:defaultValue="false"
+        android:summaryOn="@string/pref_title_correction_indicate_summaryon"
+        android:summaryOff="@string/pref_title_correction_indicate_summaryoff"
+    />
+
+    <PreferenceScreen
+      android:summary="@string/pref_title_comment_summary"
+      android:title="@string/pref_title_comment">
+        <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.iknowu.net/support/" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CookedToEnglish - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\pknaven\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/CookedToEnglish.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\myprojects\WLSDK\COOKEDTODICTCONVERTER\CookedToEnglish\cookedToEnglish.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\pknaven\LOCALS~1\Temp\RSP65.tmp" 
+Creating temporary file "C:\DOCUME~1\pknaven\LOCALS~1\Temp\RSP66.tmp" with contents
+[
+..\..\wlsdklib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CookedToEnglish.pdb" /debug /machine:I386 /out:"Debug/CookedToEnglish.exe" /pdbtype:sept 
+.\Debug\cookedToEnglish.obj
+.\Debug\everbserializer.obj
+.\Debug\treatmentruleserializer.obj
+\myprojects\WLSDK\WLsdklib\Debug\WLsdklib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\pknaven\LOCALS~1\Temp\RSP66.tmp"
+<h3>Output Window</h3>
+Compiling...
+cookedToEnglish.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+CookedToEnglish.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
